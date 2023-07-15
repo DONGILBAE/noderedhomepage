@@ -1,0 +1,1818 @@
+[
+    {
+        "id": "8ebe4c955dce045f",
+        "type": "tab",
+        "label": "DB 생성 및 처리",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "3b91390c64b4ab92",
+        "type": "tab",
+        "label": "홈페이지메인",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "d66642cf4bf64b92",
+        "type": "tab",
+        "label": "어드민 페이지",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "c1c0f68e0bc7b18d",
+        "type": "group",
+        "z": "3b91390c64b4ab92",
+        "name": "homepage main frame.",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "98090de0860cf3ae",
+            "ef27e0b44dc25a19",
+            "c884d318f9fa07b0",
+            "1dd63984d96b6038",
+            "bd1485b0ecf6ccc5",
+            "0c7a9e1e195432c9",
+            "c2123b3fcd30e2fe",
+            "e87728a438d4e97c",
+            "702e87d0306cb302"
+        ],
+        "x": 74,
+        "y": 19,
+        "w": 972,
+        "h": 234
+    },
+    {
+        "id": "0339124586ae5641",
+        "type": "group",
+        "z": "3b91390c64b4ab92",
+        "name": "다이나믹 메뉴 Insert",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "d545389905561538",
+            "664fdb5d723dda1f",
+            "939f0caf4b648ff0",
+            "61cec57fa6f19722",
+            "75759424346f2bef",
+            "aa83b369347994bc",
+            "eb7ad02419b10b56",
+            "9afd075034707a1e",
+            "86e50c49b485096d",
+            "08ddd97e1f7d2d1d",
+            "880dc21725676eff",
+            "233ddd4cf5cc7af6",
+            "2bbe84ced509466e",
+            "c1874fbe5ce02116",
+            "f255917285e0849d",
+            "358beee49aeb1506",
+            "69ebe9f292f28395",
+            "884b9aa3f8addbd9",
+            "833addf2496ace54",
+            "f09cc28bc3270e43",
+            "c7830ecb4b833d8b",
+            "8b21783d27166498",
+            "348b0d8ed6d502d8",
+            "40c8c8eb8456db2e",
+            "0590c154edcb67ab",
+            "7168ab5b5301f90d",
+            "4dfcb093d92946c7",
+            "c054c365968aa9f4"
+        ],
+        "x": 54,
+        "y": 347,
+        "w": 1062,
+        "h": 654
+    },
+    {
+        "id": "b0590fb7a764c023",
+        "type": "group",
+        "z": "3b91390c64b4ab92",
+        "name": "front-end 입력 정보 Back-end 수신",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "9d8ed5cca638f9fc",
+            "23e05efdeb790011",
+            "bbe4af30b3d49353",
+            "98f57c409a4158a5",
+            "a9e09a4043df7834",
+            "d4dde046d8d24e1c",
+            "d8f282763f83dfc2",
+            "56164ca7de8bdb03",
+            "f550825521218507"
+        ],
+        "x": 1174,
+        "y": 39,
+        "w": 1032,
+        "h": 262
+    },
+    {
+        "id": "9d1f5e88710ef37c",
+        "type": "group",
+        "z": "8ebe4c955dce045f",
+        "name": "고객 질문 DB생성 및 자동 등록 ",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "0cb132810f5285ad",
+            "5c8437d208d87236",
+            "0552e9ec1ae24b49",
+            "4279c449b93b5df9",
+            "ebce86ef0f1b61c3",
+            "8d715b32f649b494",
+            "8c9d4fb258087a98",
+            "fe048304debd7f98",
+            "51c5d7b69dced959",
+            "0c7420a6ead816ee",
+            "adacce6afb2aaa2c"
+        ],
+        "x": 34,
+        "y": 59,
+        "w": 892,
+        "h": 322
+    },
+    {
+        "id": "482fbf50457bbd81",
+        "type": "sqlitedb",
+        "db": "homepage",
+        "mode": "RWC"
+    },
+    {
+        "id": "e45c37dd150cf484",
+        "type": "ui_tab",
+        "name": "Admin",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "a151c2fab09efc0a",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#1bbfff",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#0094ce",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "4cd464ef32526d2c",
+        "type": "ui_group",
+        "name": "블로그 생성",
+        "tab": "e45c37dd150cf484",
+        "order": 1,
+        "disp": true,
+        "width": "18",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "0cb132810f5285ad",
+        "type": "inject",
+        "z": "8ebe4c955dce045f",
+        "g": "9d1f5e88710ef37c",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 140,
+        "y": 160,
+        "wires": [
+            [
+                "0552e9ec1ae24b49"
+            ]
+        ]
+    },
+    {
+        "id": "5c8437d208d87236",
+        "type": "sqlite",
+        "z": "8ebe4c955dce045f",
+        "g": "9d1f5e88710ef37c",
+        "mydb": "482fbf50457bbd81",
+        "sqlquery": "msg.topic",
+        "sql": "",
+        "name": "",
+        "x": 670,
+        "y": 160,
+        "wires": [
+            [
+                "4279c449b93b5df9"
+            ]
+        ]
+    },
+    {
+        "id": "0552e9ec1ae24b49",
+        "type": "sqlstring-format",
+        "z": "8ebe4c955dce045f",
+        "g": "9d1f5e88710ef37c",
+        "name": "고객질문DB 생성",
+        "query": "CREATE TABLE IF NOT EXISTS homequestion(  \n   id INTEGER PRIMARY KEY AUTOINCREMENT,  \n   name TEXT NOT NULL,  \n   email TEXT NOT NULL,  \n   subject TEXT NOT NULL, \n   detail TEXT NOT NULL,\n   mark INTEGER NOT NULL,  \n   datetime  TIMESTAMP DEFAULT (datetime('now','localtime'))\n);",
+        "vars": "",
+        "outField": "topic",
+        "x": 360,
+        "y": 160,
+        "wires": [
+            [
+                "5c8437d208d87236"
+            ]
+        ]
+    },
+    {
+        "id": "4279c449b93b5df9",
+        "type": "debug",
+        "z": "8ebe4c955dce045f",
+        "g": "9d1f5e88710ef37c",
+        "name": "debug 6",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 820,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "ebce86ef0f1b61c3",
+        "type": "sqlstring-format",
+        "z": "8ebe4c955dce045f",
+        "g": "9d1f5e88710ef37c",
+        "name": "고객질문DB 삭제",
+        "query": "DROP TABLE homequestion;",
+        "vars": "",
+        "outField": "topic",
+        "x": 360,
+        "y": 220,
+        "wires": [
+            [
+                "5c8437d208d87236"
+            ]
+        ]
+    },
+    {
+        "id": "8d715b32f649b494",
+        "type": "inject",
+        "z": "8ebe4c955dce045f",
+        "g": "9d1f5e88710ef37c",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 160,
+        "y": 220,
+        "wires": [
+            [
+                "ebce86ef0f1b61c3"
+            ]
+        ]
+    },
+    {
+        "id": "8c9d4fb258087a98",
+        "type": "sqlstring-format",
+        "z": "8ebe4c955dce045f",
+        "g": "9d1f5e88710ef37c",
+        "name": "고객질문DB view",
+        "query": "SELECT * FROM homequestion;",
+        "vars": "",
+        "outField": "topic",
+        "x": 360,
+        "y": 280,
+        "wires": [
+            [
+                "5c8437d208d87236"
+            ]
+        ]
+    },
+    {
+        "id": "fe048304debd7f98",
+        "type": "inject",
+        "z": "8ebe4c955dce045f",
+        "g": "9d1f5e88710ef37c",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 160,
+        "y": 280,
+        "wires": [
+            [
+                "8c9d4fb258087a98"
+            ]
+        ]
+    },
+    {
+        "id": "51c5d7b69dced959",
+        "type": "sqlstring-format",
+        "z": "8ebe4c955dce045f",
+        "g": "9d1f5e88710ef37c",
+        "name": "고객질문DB insert",
+        "query": "INSERT INTO homequestion(name,email,subject,detail,mark) VALUES(\"배동일\",\"TEST\",\"질문\",\"테스트입니다.\", 0);",
+        "vars": "",
+        "outField": "topic",
+        "x": 370,
+        "y": 340,
+        "wires": [
+            [
+                "5c8437d208d87236"
+            ]
+        ]
+    },
+    {
+        "id": "0c7420a6ead816ee",
+        "type": "inject",
+        "z": "8ebe4c955dce045f",
+        "g": "9d1f5e88710ef37c",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 160,
+        "y": 340,
+        "wires": [
+            [
+                "51c5d7b69dced959"
+            ]
+        ]
+    },
+    {
+        "id": "adacce6afb2aaa2c",
+        "type": "link in",
+        "z": "8ebe4c955dce045f",
+        "g": "9d1f5e88710ef37c",
+        "name": "db in",
+        "links": [
+            "98f57c409a4158a5"
+        ],
+        "x": 435,
+        "y": 100,
+        "wires": [
+            [
+                "5c8437d208d87236"
+            ]
+        ]
+    },
+    {
+        "id": "c1212a22a5ddaa20",
+        "type": "sqlstring-format",
+        "z": "8ebe4c955dce045f",
+        "name": "BLOG DB 생성",
+        "query": "CREATE TABLE IF NOT EXISTS blog(  \n   id INTEGER PRIMARY KEY AUTOINCREMENT,  \n   subject TEXT NOT NULL,\n   url     TEXT NOT NULL, \n   summary TEXT NOT NULL,\n   detail TEXT NOT NULL,\n   datetime  TIMESTAMP DEFAULT (datetime('now','localtime'))\n);",
+        "vars": "",
+        "outField": "topic",
+        "x": 400,
+        "y": 480,
+        "wires": [
+            [
+                "ab6e646dc8291a10"
+            ]
+        ]
+    },
+    {
+        "id": "ab6e646dc8291a10",
+        "type": "sqlite",
+        "z": "8ebe4c955dce045f",
+        "mydb": "482fbf50457bbd81",
+        "sqlquery": "msg.topic",
+        "sql": "",
+        "name": "",
+        "x": 630,
+        "y": 480,
+        "wires": [
+            [
+                "57dd2eb82edaca95"
+            ]
+        ]
+    },
+    {
+        "id": "57dd2eb82edaca95",
+        "type": "debug",
+        "z": "8ebe4c955dce045f",
+        "name": "debug 7",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 820,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "f965f2a8cf1eea14",
+        "type": "inject",
+        "z": "8ebe4c955dce045f",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 180,
+        "y": 480,
+        "wires": [
+            [
+                "c1212a22a5ddaa20"
+            ]
+        ]
+    },
+    {
+        "id": "7e2db76dbac77ff4",
+        "type": "sqlstring-format",
+        "z": "8ebe4c955dce045f",
+        "name": "BLOG DB 삭제",
+        "query": "DROP TABLE blog;",
+        "vars": "",
+        "outField": "topic",
+        "x": 400,
+        "y": 540,
+        "wires": [
+            [
+                "ab6e646dc8291a10"
+            ]
+        ]
+    },
+    {
+        "id": "2bc1c04b596090cb",
+        "type": "inject",
+        "z": "8ebe4c955dce045f",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 180,
+        "y": 540,
+        "wires": [
+            [
+                "7e2db76dbac77ff4"
+            ]
+        ]
+    },
+    {
+        "id": "0781382c586d570f",
+        "type": "sqlstring-format",
+        "z": "8ebe4c955dce045f",
+        "name": "BLOG DB view",
+        "query": "SELECT * FROM blog;",
+        "vars": "",
+        "outField": "topic",
+        "x": 400,
+        "y": 600,
+        "wires": [
+            [
+                "ab6e646dc8291a10"
+            ]
+        ]
+    },
+    {
+        "id": "17c13b6f1d1870eb",
+        "type": "inject",
+        "z": "8ebe4c955dce045f",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 180,
+        "y": 600,
+        "wires": [
+            [
+                "0781382c586d570f"
+            ]
+        ]
+    },
+    {
+        "id": "70f2f02d5bc59e9d",
+        "type": "sqlstring-format",
+        "z": "8ebe4c955dce045f",
+        "name": "BLOG DB insert",
+        "query": "INSERT INTO blog(subject,url,summary,detail) VALUES(\"Test\",\"#\",\"요약\",\"내 용\");",
+        "vars": "",
+        "outField": "topic",
+        "x": 380,
+        "y": 660,
+        "wires": [
+            [
+                "ab6e646dc8291a10"
+            ]
+        ]
+    },
+    {
+        "id": "0af7cc98597bf7b6",
+        "type": "inject",
+        "z": "8ebe4c955dce045f",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 180,
+        "y": 660,
+        "wires": [
+            [
+                "70f2f02d5bc59e9d"
+            ]
+        ]
+    },
+    {
+        "id": "c7461af651303681",
+        "type": "sqlstring-format",
+        "z": "8ebe4c955dce045f",
+        "name": "BLOG DB view",
+        "query": "SELECT * FROM blog\nORDER BY id DESC\nLIMIT 3;",
+        "vars": "",
+        "outField": "topic",
+        "x": 380,
+        "y": 740,
+        "wires": [
+            [
+                "ab6e646dc8291a10"
+            ]
+        ]
+    },
+    {
+        "id": "d3b0aa8dd01529d0",
+        "type": "inject",
+        "z": "8ebe4c955dce045f",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 180,
+        "y": 740,
+        "wires": [
+            [
+                "c7461af651303681"
+            ]
+        ]
+    },
+    {
+        "id": "98090de0860cf3ae",
+        "type": "uibuilder",
+        "z": "3b91390c64b4ab92",
+        "g": "c1c0f68e0bc7b18d",
+        "name": "home page index",
+        "topic": "",
+        "url": "index",
+        "fwdInMessages": false,
+        "allowScripts": false,
+        "allowStyles": false,
+        "copyIndex": true,
+        "templateFolder": "blank",
+        "extTemplate": "",
+        "showfolder": false,
+        "reload": true,
+        "sourceFolder": "src",
+        "deployedVersion": "6.4.1",
+        "showMsgUib": false,
+        "x": 510,
+        "y": 120,
+        "wires": [
+            [
+                "ef27e0b44dc25a19",
+                "0c7a9e1e195432c9"
+            ],
+            [
+                "c884d318f9fa07b0",
+                "c2123b3fcd30e2fe"
+            ]
+        ]
+    },
+    {
+        "id": "ef27e0b44dc25a19",
+        "type": "debug",
+        "z": "3b91390c64b4ab92",
+        "g": "c1c0f68e0bc7b18d",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 740,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "c884d318f9fa07b0",
+        "type": "debug",
+        "z": "3b91390c64b4ab92",
+        "g": "c1c0f68e0bc7b18d",
+        "name": "debug 2",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 740,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "1dd63984d96b6038",
+        "type": "inject",
+        "z": "3b91390c64b4ab92",
+        "g": "c1c0f68e0bc7b18d",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "Start Homepage",
+        "payload": "",
+        "payloadType": "date",
+        "x": 230,
+        "y": 80,
+        "wires": [
+            [
+                "98090de0860cf3ae"
+            ]
+        ]
+    },
+    {
+        "id": "bd1485b0ecf6ccc5",
+        "type": "link in",
+        "z": "3b91390c64b4ab92",
+        "g": "c1c0f68e0bc7b18d",
+        "name": "home page in",
+        "links": [
+            "61cec57fa6f19722",
+            "d4dde046d8d24e1c"
+        ],
+        "x": 275,
+        "y": 160,
+        "wires": [
+            [
+                "98090de0860cf3ae"
+            ]
+        ]
+    },
+    {
+        "id": "d545389905561538",
+        "type": "template",
+        "z": "3b91390c64b4ab92",
+        "g": "0339124586ae5641",
+        "name": "html form 생성",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<li class=\"dropdown\"><a href=\"#\"><span>{{title}}</span> <i class=\"bi bi-chevron-down\"></i></a>\n  <ul>\n    {{#payload}}\n      <li><a href={{url}}>{{title}}</a></li>\n    {{/payload}}\n  </ul>\n</li>",
+        "output": "str",
+        "x": 620,
+        "y": 540,
+        "wires": [
+            [
+                "664fdb5d723dda1f"
+            ]
+        ]
+    },
+    {
+        "id": "664fdb5d723dda1f",
+        "type": "uib-element",
+        "z": "3b91390c64b4ab92",
+        "g": "0339124586ae5641",
+        "name": "",
+        "topic": "",
+        "elementtype": "li",
+        "parent": "#navbar",
+        "parentSource": "",
+        "parentSourceType": "str",
+        "elementid": "",
+        "elementId": "",
+        "elementIdSourceType": "str",
+        "heading": "",
+        "headingSourceType": "str",
+        "headingLevel": "h2",
+        "position": "last",
+        "positionSourceType": "str",
+        "confData": {},
+        "x": 830,
+        "y": 540,
+        "wires": [
+            [
+                "61cec57fa6f19722"
+            ]
+        ]
+    },
+    {
+        "id": "939f0caf4b648ff0",
+        "type": "inject",
+        "z": "3b91390c64b4ab92",
+        "g": "0339124586ae5641",
+        "name": "기술자료 메뉴 \\n insert",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 170,
+        "y": 500,
+        "wires": [
+            [
+                "75759424346f2bef"
+            ]
+        ]
+    },
+    {
+        "id": "61cec57fa6f19722",
+        "type": "link out",
+        "z": "3b91390c64b4ab92",
+        "g": "0339124586ae5641",
+        "name": "header out",
+        "mode": "link",
+        "links": [
+            "bd1485b0ecf6ccc5"
+        ],
+        "x": 1075,
+        "y": 620,
+        "wires": []
+    },
+    {
+        "id": "75759424346f2bef",
+        "type": "function",
+        "z": "3b91390c64b4ab92",
+        "g": "0339124586ae5641",
+        "name": "참조자료list",
+        "func": "var payload = [\n    {\n        url:\"https://www.canva.com/design/DAFnwFfSH7U/RaWDFtVAx752dwN2pM3C3w/view?continue_in_browser=true\",\n        title:\"회사소개자료\"\n    },\n    {\n        url:\"https://www.canva.com/design/DAFih0m28ms/BtBeuM5dn5euPC56DFPhtw/view?continue_in_browser=true\",\n        title:\"인공지능활용\"\n    }\n];\n\nreturn {title:\"기술자료\", payload:payload};",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 610,
+        "y": 500,
+        "wires": [
+            [
+                "d545389905561538"
+            ]
+        ]
+    },
+    {
+        "id": "0c7a9e1e195432c9",
+        "type": "link out",
+        "z": "3b91390c64b4ab92",
+        "g": "c1c0f68e0bc7b18d",
+        "name": "home out",
+        "mode": "link",
+        "links": [
+            "9d8ed5cca638f9fc"
+        ],
+        "x": 705,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "9d8ed5cca638f9fc",
+        "type": "link in",
+        "z": "3b91390c64b4ab92",
+        "g": "b0590fb7a764c023",
+        "name": "home in",
+        "links": [
+            "0c7a9e1e195432c9"
+        ],
+        "x": 1215,
+        "y": 160,
+        "wires": [
+            [
+                "23e05efdeb790011"
+            ]
+        ]
+    },
+    {
+        "id": "23e05efdeb790011",
+        "type": "switch",
+        "z": "3b91390c64b4ab92",
+        "g": "b0590fb7a764c023",
+        "name": "front end input \\n seperate by type",
+        "property": "payload.type",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "home_guestion",
+                "vt": "str"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 1360,
+        "y": 160,
+        "wires": [
+            [
+                "bbe4af30b3d49353"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "c2123b3fcd30e2fe",
+        "type": "switch",
+        "z": "3b91390c64b4ab92",
+        "g": "c1c0f68e0bc7b18d",
+        "name": "클라이언트 \\n 접속 여부 파악",
+        "property": "uibuilderCtrl",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "regex",
+                "v": "connect",
+                "vt": "str",
+                "case": false
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 760,
+        "y": 200,
+        "wires": [
+            [
+                "e87728a438d4e97c",
+                "702e87d0306cb302"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "e87728a438d4e97c",
+        "type": "link out",
+        "z": "3b91390c64b4ab92",
+        "g": "c1c0f68e0bc7b18d",
+        "name": "client out",
+        "mode": "link",
+        "links": [
+            "aa83b369347994bc"
+        ],
+        "x": 905,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "aa83b369347994bc",
+        "type": "link in",
+        "z": "3b91390c64b4ab92",
+        "g": "0339124586ae5641",
+        "name": "client in",
+        "links": [
+            "e87728a438d4e97c"
+        ],
+        "x": 265,
+        "y": 540,
+        "wires": [
+            [
+                "08ddd97e1f7d2d1d",
+                "8b21783d27166498"
+            ]
+        ]
+    },
+    {
+        "id": "702e87d0306cb302",
+        "type": "debug",
+        "z": "3b91390c64b4ab92",
+        "g": "c1c0f68e0bc7b18d",
+        "name": "debug 5",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 940,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "bbe4af30b3d49353",
+        "type": "function",
+        "z": "3b91390c64b4ab92",
+        "g": "b0590fb7a764c023",
+        "name": "질문내용 DB에 저장",
+        "func": "var p = msg.payload;\nif(p.name == \"\" || p.email ==\"\" || p.subject == \"\" || p.message == \"\"){\n    return [null, { topic: \"#name\", payload: \"\" }, { topic: \"#email\", payload: \"\" }, { topic: \"#subject\", payload: \"\" }, { topic: \"#message\", payload: \"\" }, { topic: \"성명과 이메일, 제목, 문의 내용을 다 입력 해 주세요\" }, null];\n}\nvar sql = \"INSERT INTO homequestion(name,email,subject,detail,mark) VALUES('\" +p.name + \"','\" + p.email + \"','\" + p.subject + \"','\" + p.message + \"',\"+ 0 +\")\";\n\nreturn [{ topic: sql }, { topic: \"#name\", payload: \"\" }, { topic: \"#email\", payload: \"\" }, { topic: \"#subject\", payload: \"\" }, { topic: \"#message\", payload: \"\" }, {topic:\"성공적으로 저장 되었습니다.\"}, msg];",
+        "outputs": 7,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1600,
+        "y": 140,
+        "wires": [
+            [
+                "98f57c409a4158a5"
+            ],
+            [
+                "a9e09a4043df7834"
+            ],
+            [
+                "a9e09a4043df7834"
+            ],
+            [
+                "a9e09a4043df7834"
+            ],
+            [
+                "a9e09a4043df7834"
+            ],
+            [
+                "d4dde046d8d24e1c"
+            ],
+            [
+                "56164ca7de8bdb03"
+            ]
+        ]
+    },
+    {
+        "id": "98f57c409a4158a5",
+        "type": "link out",
+        "z": "3b91390c64b4ab92",
+        "g": "b0590fb7a764c023",
+        "name": "insert to db out",
+        "mode": "link",
+        "links": [
+            "adacce6afb2aaa2c"
+        ],
+        "x": 1765,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "a9e09a4043df7834",
+        "type": "uib-update",
+        "z": "3b91390c64b4ab92",
+        "g": "b0590fb7a764c023",
+        "name": "clear form box",
+        "topic": "",
+        "mode": "update",
+        "modeSourceType": "update",
+        "cssSelector": "topic",
+        "cssSelectorType": "msg",
+        "slotSourceProp": "",
+        "slotSourcePropType": "msg",
+        "attribsSource": "{ \"value\": payload }",
+        "attribsSourceType": "jsonata",
+        "slotPropMarkdown": false,
+        "x": 1830,
+        "y": 120,
+        "wires": [
+            [
+                "d4dde046d8d24e1c"
+            ]
+        ]
+    },
+    {
+        "id": "d4dde046d8d24e1c",
+        "type": "link out",
+        "z": "3b91390c64b4ab92",
+        "g": "b0590fb7a764c023",
+        "name": "form clear out",
+        "mode": "link",
+        "links": [
+            "bd1485b0ecf6ccc5"
+        ],
+        "x": 1995,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "eb7ad02419b10b56",
+        "type": "template",
+        "z": "3b91390c64b4ab92",
+        "g": "0339124586ae5641",
+        "name": "포트폴리오 정보 입력",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "\n        <div class=\"row awesome-project-content portfolio-container\">\n          <!-- portfolio-item start -->\n          {{#payload}}\n            <div class={{class}}>\n               <div class=\"single-awesome-project\">\n                <div class=\"awesome-img\">\n                  <a href=\"#\"><img src={{url}} alt=\"\" /></a>\n                  <div class=\"add-actions text-center\">\n                    <div class=\"project-dec\">\n                      <a class=\"portfolio-lightbox\" data-gallery=\"myGallery\" href={{url}}>\n                        <h4>{{title}}</h4>\n                        <span>{{des}}</span>\n                      </a>\n                    </div>\n                  </div>\n                </div>\n               </div>\n            </div>\n          {{/payload}}\n</div>  ",
+        "output": "str",
+        "x": 540,
+        "y": 760,
+        "wires": [
+            [
+                "9afd075034707a1e"
+            ]
+        ]
+    },
+    {
+        "id": "9afd075034707a1e",
+        "type": "uib-element",
+        "z": "3b91390c64b4ab92",
+        "g": "0339124586ae5641",
+        "name": "",
+        "topic": "",
+        "elementtype": "html",
+        "parent": "#product",
+        "parentSource": "",
+        "parentSourceType": "str",
+        "elementid": "",
+        "elementId": "",
+        "elementIdSourceType": "str",
+        "heading": "",
+        "headingSourceType": "str",
+        "headingLevel": "h2",
+        "position": "last",
+        "positionSourceType": "str",
+        "confData": {},
+        "x": 840,
+        "y": 760,
+        "wires": [
+            [
+                "61cec57fa6f19722"
+            ]
+        ]
+    },
+    {
+        "id": "86e50c49b485096d",
+        "type": "inject",
+        "z": "3b91390c64b4ab92",
+        "g": "0339124586ae5641",
+        "name": "포트폴리오 제품 정보 ",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 210,
+        "y": 720,
+        "wires": [
+            [
+                "08ddd97e1f7d2d1d"
+            ]
+        ]
+    },
+    {
+        "id": "08ddd97e1f7d2d1d",
+        "type": "function",
+        "z": "3b91390c64b4ab92",
+        "g": "0339124586ae5641",
+        "name": "포트폴리오 리스트",
+        "func": "var payload = [\n    {\n        title:\"4세대 개발 프로그램\",\n        des:\"정밀하고 빠른 개발 방법\",\n        class: \"col-md-4 col-sm-4 col-xs-12 portfolio-item filter-iot portfolio-item\",\n        url: \"/images/background/nodered.png\"\n    },\n    {\n        title: \"4세대 개발 프로그램\",\n        des: \"정밀하고 빠른 개발 방법\",\n        class: \"col-md-4 col-sm-4 col-xs-12 portfolio-item filter-iot portfolio-item\",\n        url: \"/images/background/nodered.png\"\n    }       \n];\n\nreturn {title:\"포트폴리오\", payload:payload};",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 530,
+        "y": 720,
+        "wires": [
+            [
+                "eb7ad02419b10b56"
+            ]
+        ]
+    },
+    {
+        "id": "880dc21725676eff",
+        "type": "template",
+        "z": "3b91390c64b4ab92",
+        "g": "0339124586ae5641",
+        "name": "new blog information",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": " <div  class=\"row\">\n    <!-- Start Left Blog -->\n    {{#payload}}\n        <div class=\"col-md-4 col-sm-4 col-xs-12\">\n          <div class=\"single-blog\">\n            <div class=\"single-blog-img\">\n              <a href=\"blog.html\">\n                <img src={{url}} alt=\"\">\n              </a>\n            </div>\n            <div class=\"blog-meta\">\n              <span class=\"date-type\">\n                <i class=\"fa fa-calendar\"></i>{{datetime}}\n              </span>\n            </div>\n            <div class=\"blog-text\">\n              <h4>\n                <a href=\"blog.html\">{{subject}}</a>\n              </h4>\n              <p>\n                {{summary}}\n              </p>\n            </div>\n            <span>\n              <a href=\"blog.html\" class=\"ready-btn\">상세보기</a>\n            </span>\n          </div>\n        \n        </div>\n    {{/payload}}\n</div>",
+        "output": "str",
+        "x": 540,
+        "y": 960,
+        "wires": [
+            [
+                "233ddd4cf5cc7af6"
+            ]
+        ]
+    },
+    {
+        "id": "233ddd4cf5cc7af6",
+        "type": "uib-element",
+        "z": "3b91390c64b4ab92",
+        "g": "0339124586ae5641",
+        "name": "",
+        "topic": "",
+        "elementtype": "html",
+        "parent": "#blog",
+        "parentSource": "",
+        "parentSourceType": "str",
+        "elementid": "",
+        "elementId": "",
+        "elementIdSourceType": "str",
+        "heading": "",
+        "headingSourceType": "str",
+        "headingLevel": "h2",
+        "position": "last",
+        "positionSourceType": "str",
+        "confData": {},
+        "x": 850,
+        "y": 960,
+        "wires": [
+            [
+                "61cec57fa6f19722"
+            ]
+        ]
+    },
+    {
+        "id": "2bbe84ced509466e",
+        "type": "inject",
+        "z": "3b91390c64b4ab92",
+        "g": "0339124586ae5641",
+        "name": "새로운 소식",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 200,
+        "y": 860,
+        "wires": [
+            [
+                "7168ab5b5301f90d"
+            ]
+        ]
+    },
+    {
+        "id": "c1874fbe5ce02116",
+        "type": "template",
+        "z": "3b91390c64b4ab92",
+        "g": "0339124586ae5641",
+        "name": "youtube 소식",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<div class=\"flicker-img\">\n        {{#payload}}\n                <img src={{url}} onclick = {{function}} >\n        {{/payload}}\n</div>\n",
+        "output": "str",
+        "x": 610,
+        "y": 640,
+        "wires": [
+            [
+                "f255917285e0849d"
+            ]
+        ]
+    },
+    {
+        "id": "f255917285e0849d",
+        "type": "uib-element",
+        "z": "3b91390c64b4ab92",
+        "g": "0339124586ae5641",
+        "name": "",
+        "topic": "",
+        "elementtype": "html",
+        "parent": "#youtube",
+        "parentSource": "",
+        "parentSourceType": "str",
+        "elementid": "",
+        "elementId": "",
+        "elementIdSourceType": "str",
+        "heading": "",
+        "headingSourceType": "str",
+        "headingLevel": "h2",
+        "position": "last",
+        "positionSourceType": "str",
+        "confData": {},
+        "x": 860,
+        "y": 640,
+        "wires": [
+            [
+                "61cec57fa6f19722"
+            ]
+        ]
+    },
+    {
+        "id": "358beee49aeb1506",
+        "type": "inject",
+        "z": "3b91390c64b4ab92",
+        "g": "0339124586ae5641",
+        "name": "유튜브 소식",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 160,
+        "y": 600,
+        "wires": [
+            [
+                "69ebe9f292f28395"
+            ]
+        ]
+    },
+    {
+        "id": "d8f282763f83dfc2",
+        "type": "e-mail",
+        "z": "3b91390c64b4ab92",
+        "g": "b0590fb7a764c023",
+        "server": "smtp.gmail.com",
+        "port": "465",
+        "authtype": "BASIC",
+        "saslformat": true,
+        "token": "oauth2Response.access_token",
+        "secure": true,
+        "tls": true,
+        "name": "",
+        "dname": "",
+        "x": 2130,
+        "y": 200,
+        "wires": [],
+        "info": "ijjinpcvzxjgjygp"
+    },
+    {
+        "id": "69ebe9f292f28395",
+        "type": "function",
+        "z": "3b91390c64b4ab92",
+        "g": "0339124586ae5641",
+        "name": "유튜브 리스트",
+        "func": "var payload = [\n    {\n    url: \"/images/product/smartmirror.png\",\n    function: \"openModal('-5zcfunoVIg')\"\n    },\n    {\n      url: \"/images/product/smartfactory.png\",\n      function: \"openModal('dVFJMzT2UA8')\"\n    }\n];\n/*img src = \"/images/product/smartmirror.png\" alt = \"Smart Mirror\" onclick = \"openModal('-5zcfunoVIg')\" >\n  <img src=\"/images/product/smartfactory.png\" alt=\"Smart Factory\" onclick=\"openModal('dVFJMzT2UA8')\">\n    <img src=\"/images/product/smartfactory.png\" alt=\"Smart Factory\" onclick=\"openModal('dVFJMzT2UA8')\" */\n\nreturn {title:\"유튜브\", payload:payload};",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 610,
+        "y": 600,
+        "wires": [
+            [
+                "c1874fbe5ce02116"
+            ]
+        ]
+    },
+    {
+        "id": "884b9aa3f8addbd9",
+        "type": "function",
+        "z": "3b91390c64b4ab92",
+        "g": "0339124586ae5641",
+        "name": "최근 블로그 리스트",
+        "func": "var payload = [\n    {\n    url: \"/assets/img/blog/1.jpg\",\n    datetime: \"2023/03/27 18:29:39\",\n    summary:\"Test\"\n    },\n  {\n    url: \"/assets/img/blog/1.jpg\",\n    datetime: \"2023/03/27 18:29:39\",\n    summary: \"Test\"\n  },\n  {\n    url: \"/assets/img/blog/1.jpg\",\n    datetime: \"2023/03/27 18:29:39\",\n    summary: \"Test\"\n  },\n  {\n    url: \"/assets/img/blog/1.jpg\",\n    datetime: \"2023/03/27 18:29:39\",\n    summary: \"Test\"\n  },\n  {\n    url: \"/assets/img/blog/1.jpg\",\n    datetime: \"2023/03/27 18:29:39\",\n    summary: \"Test\"\n  },\n  {\n    url: \"/assets/img/blog/1.jpg\",\n    datetime: \"2023/03/27 18:29:39\",\n    summary: \"Test\"\n  }\n];\nreturn {title:\"블로그\", payload:payload};",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 830,
+        "y": 800,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "833addf2496ace54",
+        "type": "template",
+        "z": "3b91390c64b4ab92",
+        "g": "0339124586ae5641",
+        "name": "header template",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<div class=\"container d-flex justify-content-between\">\n      <div class=\"logo\">\n        <h1><a href=\"index.html\"><span>for human life</span> <img src=\"/images/logo/fthkorea.png\" alt=\"\" class=\"img-fluid\">FTH-KOREA</a></h1>\n      </div>\n\n      <nav id=\"navbar\" class=\"navbar\">\n        <ul>\n          <li><a class=\"nav-link scrollto active\" href=\"#hero\">홈</a></li>\n          <li><a class=\"nav-link scrollto\" href=\"#about\">소개</a></li>\n          <li><a class=\"nav-link scrollto\" href=\"#services\">서비스</a></li>\n          <li><a class=\"nav-link scrollto\" href=\"#portfolio\">제품</a></li>\n          <li><a href=\"blog.html\">새소식</a></li>\n          <li><a class=\"nav-link scrollto\" href=\"#contact\">연락처</a></li>\n        </ul-->\n        <i class=\"bi bi-list mobile-nav-toggle\"></i>\n      </nav><!-- .navbar -->\n    </div>",
+        "output": "str",
+        "x": 600,
+        "y": 400,
+        "wires": [
+            [
+                "f09cc28bc3270e43"
+            ]
+        ]
+    },
+    {
+        "id": "c7830ecb4b833d8b",
+        "type": "inject",
+        "z": "3b91390c64b4ab92",
+        "g": "0339124586ae5641",
+        "name": "header 메뉴 \\n insert",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 230,
+        "y": 400,
+        "wires": [
+            [
+                "8b21783d27166498"
+            ]
+        ]
+    },
+    {
+        "id": "f09cc28bc3270e43",
+        "type": "uib-element",
+        "z": "3b91390c64b4ab92",
+        "g": "0339124586ae5641",
+        "name": "",
+        "topic": "",
+        "elementtype": "html",
+        "parent": "#header",
+        "parentSource": "",
+        "parentSourceType": "str",
+        "elementid": "",
+        "elementId": "",
+        "elementIdSourceType": "str",
+        "heading": "",
+        "headingSourceType": "str",
+        "headingLevel": "h2",
+        "position": "last",
+        "positionSourceType": "str",
+        "confData": {},
+        "x": 820,
+        "y": 400,
+        "wires": [
+            [
+                "61cec57fa6f19722"
+            ]
+        ]
+    },
+    {
+        "id": "8b21783d27166498",
+        "type": "function",
+        "z": "3b91390c64b4ab92",
+        "g": "0339124586ae5641",
+        "name": "set null",
+        "func": "var msg = {};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 420,
+        "y": 400,
+        "wires": [
+            [
+                "833addf2496ace54",
+                "348b0d8ed6d502d8",
+                "40c8c8eb8456db2e"
+            ]
+        ]
+    },
+    {
+        "id": "348b0d8ed6d502d8",
+        "type": "delay",
+        "z": "3b91390c64b4ab92",
+        "g": "0339124586ae5641",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "100",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 430,
+        "y": 500,
+        "wires": [
+            [
+                "75759424346f2bef",
+                "69ebe9f292f28395",
+                "7168ab5b5301f90d"
+            ]
+        ]
+    },
+    {
+        "id": "40c8c8eb8456db2e",
+        "type": "template",
+        "z": "3b91390c64b4ab92",
+        "g": "0339124586ae5641",
+        "name": "footer template",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<div class=\"footer-area\">\n      <div class=\"container\">\n        <div class=\"row\">\n          <div class=\"col-md-4\">\n            <div class=\"footer-content\">\n              <div class=\"footer-head\">\n                <div class=\"footer-logo\">\n                  <h2><span>e</span>다른사이트</h2>\n                </div>\n\n                <p>우리 기술에 대한 소개 및 설명 참조 사이트</p>\n                <div class=\"footer-icons\">\n                  <ul>\n                    <li>\n                      <a href=\"#\"><i class=\"bi bi-facebook\"></i></a>\n                    </li>\n                    <li>\n                      <a href=\"#\"><i class=\"bi bi-twitter\"></i></a>\n                    </li>\n                    <li>\n                      <a href=\"#\"><i class=\"bi bi-instagram\"></i></a>\n                    </li>\n                    <li>\n                      <a href=\"#\"><i class=\"bi bi-linkedin\"></i></a>\n                    </li>\n                  </ul>\n                </div>\n              </div>\n            </div>\n          </div>\n          <!-- end single footer -->\n          <div class=\"col-md-4\">\n            <div class=\"footer-content\">\n              <div class=\"footer-head\">\n                <h4>긴급연락</h4>\n                <p>\n                  우리는 24시간 항상 귀사의 문의를 기다리고 있습니다.\n                </p>\n                <div class=\"footer-contacts\">\n                  <p><span>Tel:</span> +82-10-6807-1350</p>\n                  <p><span>Email:</span> dibae100@gmail.com</p>\n                  <p><span>Working Hours:</span> 24시간</p>\n                </div>\n              </div>\n            </div>\n          </div>\n          <!-- end single footer -->\n          <div class=\"col-md-4\">\n            <div class=\"footer-content\">\n              <div id=\"youtube\" class=\"footer-head\">\n                <h4>유튜브</h4>\n                \n              </div>\n            </div>\n          </div>\n        </div>\n      </div>\n    </div>\n    <div class=\"footer-area-bottom\">\n      <div class=\"container\">\n        <div class=\"row\">\n          <div class=\"col-md-12 col-sm-12 col-xs-12\">\n            <div class=\"copyright text-center\">\n              <p>\n                &copy; Copyright 2017, 2023 <strong><a href=\"http://www.fth-korea.com/\">FTH Korea</a></strong>. All Rights Reserved\n              </p>\n            </div>\n          </div>\n        </div>\n      </div>\n    </div>",
+        "output": "str",
+        "x": 600,
+        "y": 460,
+        "wires": [
+            [
+                "0590c154edcb67ab"
+            ]
+        ]
+    },
+    {
+        "id": "0590c154edcb67ab",
+        "type": "uib-element",
+        "z": "3b91390c64b4ab92",
+        "g": "0339124586ae5641",
+        "name": "",
+        "topic": "",
+        "elementtype": "html",
+        "parent": "#foot",
+        "parentSource": "",
+        "parentSourceType": "str",
+        "elementid": "",
+        "elementId": "",
+        "elementIdSourceType": "str",
+        "heading": "",
+        "headingSourceType": "str",
+        "headingLevel": "h2",
+        "position": "last",
+        "positionSourceType": "str",
+        "confData": {},
+        "x": 810,
+        "y": 460,
+        "wires": [
+            [
+                "61cec57fa6f19722"
+            ]
+        ]
+    },
+    {
+        "id": "7168ab5b5301f90d",
+        "type": "sqlstring-format",
+        "z": "3b91390c64b4ab92",
+        "g": "0339124586ae5641",
+        "name": "BLOG DB view",
+        "query": "SELECT * FROM blog\nORDER BY id DESC\nLIMIT 3;",
+        "vars": "",
+        "outField": "topic",
+        "x": 500,
+        "y": 880,
+        "wires": [
+            [
+                "4dfcb093d92946c7"
+            ]
+        ]
+    },
+    {
+        "id": "4dfcb093d92946c7",
+        "type": "sqlite",
+        "z": "3b91390c64b4ab92",
+        "g": "0339124586ae5641",
+        "mydb": "482fbf50457bbd81",
+        "sqlquery": "msg.topic",
+        "sql": "",
+        "name": "",
+        "x": 690,
+        "y": 880,
+        "wires": [
+            [
+                "880dc21725676eff",
+                "c054c365968aa9f4"
+            ]
+        ]
+    },
+    {
+        "id": "c054c365968aa9f4",
+        "type": "debug",
+        "z": "3b91390c64b4ab92",
+        "g": "0339124586ae5641",
+        "name": "debug 8",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 900,
+        "y": 880,
+        "wires": []
+    },
+    {
+        "id": "56164ca7de8bdb03",
+        "type": "function",
+        "z": "3b91390c64b4ab92",
+        "g": "b0590fb7a764c023",
+        "name": "send email message",
+        "func": "var p = msg.payload;\nvar reply = {};\nreply.topic = p.name + \" 님의 문의 사항이 접수 되었습니다.\";\nreply.to = p.email;\nreply.payload = \"안녕 하십니까? FTH-KOREA의 대표 이사 배동일 입니다. \\n 문의 하여 주신 내용이 접수 되었습니다. \\n 내용 확인 하는 즉시 관련 답변 드리도록 하겠습니다. \\n\\n FTH-KOREA 배동일 배상\";\nmsg = reply;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1860,
+        "y": 200,
+        "wires": [
+            [
+                "d8f282763f83dfc2",
+                "f550825521218507"
+            ]
+        ]
+    },
+    {
+        "id": "f550825521218507",
+        "type": "debug",
+        "z": "3b91390c64b4ab92",
+        "g": "b0590fb7a764c023",
+        "name": "debug 9",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 2060,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "b3e3e112c7b0fbd7",
+        "type": "ui_template",
+        "z": "d66642cf4bf64b92",
+        "group": "4cd464ef32526d2c",
+        "name": "",
+        "order": 0,
+        "width": "0",
+        "height": "0",
+        "format": "<!-- Include Quill stylesheet -->\n<link href=\"https://cdn.quilljs.com/1.0.0/quill.snow.css\" rel=\"stylesheet\" />\n\n<!-- Create the toolbar container -->\n<div id=\"toolbar\">\n    <!--button class=\"ql-bold\">Bold</button>\n    <button class=\"ql-italic\">Italic</button-->\n</div>\n\n<!-- Create the editor container -->\n<div id=\"editor\">\n    <p>Hello World!</p>\n</div>\n\n<!-- Include the Quill library -->\n<script src=\"https://cdn.quilljs.com/1.0.0/quill.js\"></script>\n\n<!-- Initialize Quill editor -->\n<script>\n    var editor = new Quill('#editor', {\n    modules: { toolbar: true},\n    theme: 'snow',\n  });\n</script>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 360,
+        "y": 140,
+        "wires": [
+            []
+        ]
+    }
+]
