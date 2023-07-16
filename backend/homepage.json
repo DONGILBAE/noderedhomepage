@@ -1,21 +1,5 @@
 [
     {
-        "id": "8ebe4c955dce045f",
-        "type": "tab",
-        "label": "DB 생성 및 처리",
-        "disabled": false,
-        "info": "",
-        "env": []
-    },
-    {
-        "id": "3b91390c64b4ab92",
-        "type": "tab",
-        "label": "홈페이지메인",
-        "disabled": false,
-        "info": "",
-        "env": []
-    },
-    {
         "id": "d66642cf4bf64b92",
         "type": "tab",
         "label": "어드민 페이지",
@@ -24,794 +8,200 @@
         "env": []
     },
     {
-        "id": "c1c0f68e0bc7b18d",
+        "id": "4109f40d8078ede0",
         "type": "group",
-        "z": "3b91390c64b4ab92",
-        "name": "homepage main frame.",
+        "z": "d66642cf4bf64b92",
         "style": {
-            "label": true
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
         },
         "nodes": [
-            "98090de0860cf3ae",
-            "ef27e0b44dc25a19",
-            "c884d318f9fa07b0",
-            "1dd63984d96b6038",
-            "bd1485b0ecf6ccc5",
-            "0c7a9e1e195432c9",
-            "c2123b3fcd30e2fe",
-            "e87728a438d4e97c",
-            "702e87d0306cb302"
+            "2f8c341b170dfaa0",
+            "395dac710754c909",
+            "a929050d4d080e0b",
+            "b9aa2003e8ba980d",
+            "b8fab596d031ce3c",
+            "c50342702f9e6384",
+            "568a8f4c080c13c1",
+            "f94831cbc120ea57"
         ],
-        "x": 74,
-        "y": 19,
-        "w": 972,
-        "h": 234
-    },
-    {
-        "id": "0339124586ae5641",
-        "type": "group",
-        "z": "3b91390c64b4ab92",
-        "name": "다이나믹 메뉴 Insert",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "d545389905561538",
-            "664fdb5d723dda1f",
-            "939f0caf4b648ff0",
-            "61cec57fa6f19722",
-            "75759424346f2bef",
-            "aa83b369347994bc",
-            "eb7ad02419b10b56",
-            "9afd075034707a1e",
-            "86e50c49b485096d",
-            "08ddd97e1f7d2d1d",
-            "880dc21725676eff",
-            "233ddd4cf5cc7af6",
-            "2bbe84ced509466e",
-            "c1874fbe5ce02116",
-            "f255917285e0849d",
-            "358beee49aeb1506",
-            "69ebe9f292f28395",
-            "884b9aa3f8addbd9",
-            "833addf2496ace54",
-            "f09cc28bc3270e43",
-            "c7830ecb4b833d8b",
-            "8b21783d27166498",
-            "348b0d8ed6d502d8",
-            "40c8c8eb8456db2e",
-            "0590c154edcb67ab",
-            "7168ab5b5301f90d",
-            "4dfcb093d92946c7",
-            "c054c365968aa9f4"
-        ],
-        "x": 54,
-        "y": 347,
-        "w": 1062,
-        "h": 654
-    },
-    {
-        "id": "b0590fb7a764c023",
-        "type": "group",
-        "z": "3b91390c64b4ab92",
-        "name": "front-end 입력 정보 Back-end 수신",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "9d8ed5cca638f9fc",
-            "23e05efdeb790011",
-            "bbe4af30b3d49353",
-            "98f57c409a4158a5",
-            "a9e09a4043df7834",
-            "d4dde046d8d24e1c",
-            "d8f282763f83dfc2",
-            "56164ca7de8bdb03",
-            "f550825521218507"
-        ],
-        "x": 1174,
-        "y": 39,
+        "x": 214,
+        "y": 107,
         "w": 1032,
-        "h": 262
+        "h": 194
     },
     {
-        "id": "9d1f5e88710ef37c",
+        "id": "b5521009710765be",
         "type": "group",
-        "z": "8ebe4c955dce045f",
-        "name": "고객 질문 DB생성 및 자동 등록 ",
+        "z": "d66642cf4bf64b92",
+        "name": "image up load",
         "style": {
             "label": true
         },
         "nodes": [
-            "0cb132810f5285ad",
-            "5c8437d208d87236",
-            "0552e9ec1ae24b49",
-            "4279c449b93b5df9",
-            "ebce86ef0f1b61c3",
-            "8d715b32f649b494",
-            "8c9d4fb258087a98",
-            "fe048304debd7f98",
-            "51c5d7b69dced959",
-            "0c7420a6ead816ee",
-            "adacce6afb2aaa2c"
+            "53301869c9a8e9d0",
+            "4879656104586e6b",
+            "c9056ed8587242f0",
+            "dadcfda23db212d3",
+            "66bed8adf8e3c08e"
         ],
-        "x": 34,
-        "y": 59,
-        "w": 892,
-        "h": 322
+        "x": 214,
+        "y": 339,
+        "w": 992,
+        "h": 82
     },
     {
-        "id": "482fbf50457bbd81",
-        "type": "sqlitedb",
-        "db": "homepage",
-        "mode": "RWC"
-    },
-    {
-        "id": "e45c37dd150cf484",
-        "type": "ui_tab",
-        "name": "Admin",
-        "icon": "dashboard",
-        "disabled": false,
-        "hidden": false
-    },
-    {
-        "id": "a151c2fab09efc0a",
-        "type": "ui_base",
-        "theme": {
-            "name": "theme-light",
-            "lightTheme": {
-                "default": "#0094CE",
-                "baseColor": "#0094CE",
-                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
-                "edited": false
-            },
-            "darkTheme": {
-                "default": "#097479",
-                "baseColor": "#097479",
-                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
-                "edited": false
-            },
-            "customTheme": {
-                "name": "Untitled Theme 1",
-                "default": "#4B7930",
-                "baseColor": "#4B7930",
-                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
-            },
-            "themeState": {
-                "base-color": {
-                    "default": "#0094CE",
-                    "value": "#0094CE",
-                    "edited": false
-                },
-                "page-titlebar-backgroundColor": {
-                    "value": "#0094CE",
-                    "edited": false
-                },
-                "page-backgroundColor": {
-                    "value": "#fafafa",
-                    "edited": false
-                },
-                "page-sidebar-backgroundColor": {
-                    "value": "#ffffff",
-                    "edited": false
-                },
-                "group-textColor": {
-                    "value": "#1bbfff",
-                    "edited": false
-                },
-                "group-borderColor": {
-                    "value": "#ffffff",
-                    "edited": false
-                },
-                "group-backgroundColor": {
-                    "value": "#ffffff",
-                    "edited": false
-                },
-                "widget-textColor": {
-                    "value": "#111111",
-                    "edited": false
-                },
-                "widget-backgroundColor": {
-                    "value": "#0094ce",
-                    "edited": false
-                },
-                "widget-borderColor": {
-                    "value": "#ffffff",
-                    "edited": false
-                },
-                "base-font": {
-                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
-                }
-            },
-            "angularTheme": {
-                "primary": "indigo",
-                "accents": "blue",
-                "warn": "red",
-                "background": "grey",
-                "palette": "light"
-            }
+        "id": "bd3627f098f79991",
+        "type": "group",
+        "z": "d66642cf4bf64b92",
+        "name": "파일 정보 미리 보기",
+        "style": {
+            "label": true
         },
-        "site": {
-            "name": "Node-RED Dashboard",
-            "hideToolbar": "false",
-            "allowSwipe": "false",
-            "lockMenu": "false",
-            "allowTempTheme": "true",
-            "dateFormat": "DD/MM/YYYY",
-            "sizes": {
-                "sx": 48,
-                "sy": 48,
-                "gx": 6,
-                "gy": 6,
-                "cx": 6,
-                "cy": 6,
-                "px": 0,
-                "py": 0
-            }
-        }
+        "nodes": [
+            "c8586af41b745f78",
+            "41a66048ec4521fd",
+            "f413d3c0e2f9712e",
+            "4a1fc0dd3cfa29c8",
+            "44dbc119665b184a",
+            "8caf090378be1aba",
+            "def14c8d8d9d5212",
+            "4583b21003a062c2",
+            "2efac2e5d888c534",
+            "6520a7d12782f46a",
+            "e8c3485ce0bb1ce2",
+            "faf39ee597205f88",
+            "4f466fadd0ca1bdf",
+            "d732dc31aa2a4d56",
+            "4379f74941d388de",
+            "bc4fe340501b33fb",
+            "0194d2782becdaf4",
+            "91abd97bbdd5f22c",
+            "5fdd69edf6fa788a",
+            "263f2f5de6795b4d",
+            "2c875a634c498e34",
+            "b8f8fe8e908fd515",
+            "93200da07dd49c90",
+            "426d8be1e1c1c47f",
+            "3fedf4fd47a2e5a4",
+            "2d6df94c02fb7956",
+            "c116fbf23c2bf557",
+            "6740710d7291dbd7",
+            "c50db793a0c1787d",
+            "81c5ee8f4f4218e6",
+            "8268c64aa7a51baf",
+            "b8b0c6d495afa98f",
+            "cd3ecb632b83fc59",
+            "6673509206eb067a",
+            "4d1b8d515f96be96",
+            "a2b98251b82177d3"
+        ],
+        "x": 114,
+        "y": 439,
+        "w": 1472,
+        "h": 542
     },
     {
-        "id": "4cd464ef32526d2c",
-        "type": "ui_group",
-        "name": "블로그 생성",
-        "tab": "e45c37dd150cf484",
+        "id": "4d1b8d515f96be96",
+        "type": "junction",
+        "z": "d66642cf4bf64b92",
+        "g": "bd3627f098f79991",
+        "x": 440,
+        "y": 640,
+        "wires": [
+            [
+                "81c5ee8f4f4218e6",
+                "8268c64aa7a51baf",
+                "f413d3c0e2f9712e"
+            ]
+        ]
+    },
+    {
+        "id": "2f8c341b170dfaa0",
+        "type": "ui_template",
+        "z": "d66642cf4bf64b92",
+        "g": "4109f40d8078ede0",
+        "group": "4cd464ef32526d2c",
+        "name": "",
         "order": 1,
-        "disp": true,
-        "width": "18",
-        "collapse": false,
-        "className": ""
-    },
-    {
-        "id": "0cb132810f5285ad",
-        "type": "inject",
-        "z": "8ebe4c955dce045f",
-        "g": "9d1f5e88710ef37c",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 140,
-        "y": 160,
-        "wires": [
-            [
-                "0552e9ec1ae24b49"
-            ]
-        ]
-    },
-    {
-        "id": "5c8437d208d87236",
-        "type": "sqlite",
-        "z": "8ebe4c955dce045f",
-        "g": "9d1f5e88710ef37c",
-        "mydb": "482fbf50457bbd81",
-        "sqlquery": "msg.topic",
-        "sql": "",
-        "name": "",
-        "x": 670,
-        "y": 160,
-        "wires": [
-            [
-                "4279c449b93b5df9"
-            ]
-        ]
-    },
-    {
-        "id": "0552e9ec1ae24b49",
-        "type": "sqlstring-format",
-        "z": "8ebe4c955dce045f",
-        "g": "9d1f5e88710ef37c",
-        "name": "고객질문DB 생성",
-        "query": "CREATE TABLE IF NOT EXISTS homequestion(  \n   id INTEGER PRIMARY KEY AUTOINCREMENT,  \n   name TEXT NOT NULL,  \n   email TEXT NOT NULL,  \n   subject TEXT NOT NULL, \n   detail TEXT NOT NULL,\n   mark INTEGER NOT NULL,  \n   datetime  TIMESTAMP DEFAULT (datetime('now','localtime'))\n);",
-        "vars": "",
-        "outField": "topic",
-        "x": 360,
-        "y": 160,
-        "wires": [
-            [
-                "5c8437d208d87236"
-            ]
-        ]
-    },
-    {
-        "id": "4279c449b93b5df9",
-        "type": "debug",
-        "z": "8ebe4c955dce045f",
-        "g": "9d1f5e88710ef37c",
-        "name": "debug 6",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 820,
-        "y": 160,
-        "wires": []
-    },
-    {
-        "id": "ebce86ef0f1b61c3",
-        "type": "sqlstring-format",
-        "z": "8ebe4c955dce045f",
-        "g": "9d1f5e88710ef37c",
-        "name": "고객질문DB 삭제",
-        "query": "DROP TABLE homequestion;",
-        "vars": "",
-        "outField": "topic",
-        "x": 360,
-        "y": 220,
-        "wires": [
-            [
-                "5c8437d208d87236"
-            ]
-        ]
-    },
-    {
-        "id": "8d715b32f649b494",
-        "type": "inject",
-        "z": "8ebe4c955dce045f",
-        "g": "9d1f5e88710ef37c",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 160,
-        "y": 220,
-        "wires": [
-            [
-                "ebce86ef0f1b61c3"
-            ]
-        ]
-    },
-    {
-        "id": "8c9d4fb258087a98",
-        "type": "sqlstring-format",
-        "z": "8ebe4c955dce045f",
-        "g": "9d1f5e88710ef37c",
-        "name": "고객질문DB view",
-        "query": "SELECT * FROM homequestion;",
-        "vars": "",
-        "outField": "topic",
-        "x": 360,
-        "y": 280,
-        "wires": [
-            [
-                "5c8437d208d87236"
-            ]
-        ]
-    },
-    {
-        "id": "fe048304debd7f98",
-        "type": "inject",
-        "z": "8ebe4c955dce045f",
-        "g": "9d1f5e88710ef37c",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 160,
-        "y": 280,
-        "wires": [
-            [
-                "8c9d4fb258087a98"
-            ]
-        ]
-    },
-    {
-        "id": "51c5d7b69dced959",
-        "type": "sqlstring-format",
-        "z": "8ebe4c955dce045f",
-        "g": "9d1f5e88710ef37c",
-        "name": "고객질문DB insert",
-        "query": "INSERT INTO homequestion(name,email,subject,detail,mark) VALUES(\"배동일\",\"TEST\",\"질문\",\"테스트입니다.\", 0);",
-        "vars": "",
-        "outField": "topic",
-        "x": 370,
-        "y": 340,
-        "wires": [
-            [
-                "5c8437d208d87236"
-            ]
-        ]
-    },
-    {
-        "id": "0c7420a6ead816ee",
-        "type": "inject",
-        "z": "8ebe4c955dce045f",
-        "g": "9d1f5e88710ef37c",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 160,
-        "y": 340,
-        "wires": [
-            [
-                "51c5d7b69dced959"
-            ]
-        ]
-    },
-    {
-        "id": "adacce6afb2aaa2c",
-        "type": "link in",
-        "z": "8ebe4c955dce045f",
-        "g": "9d1f5e88710ef37c",
-        "name": "db in",
-        "links": [
-            "98f57c409a4158a5"
-        ],
-        "x": 435,
-        "y": 100,
-        "wires": [
-            [
-                "5c8437d208d87236"
-            ]
-        ]
-    },
-    {
-        "id": "c1212a22a5ddaa20",
-        "type": "sqlstring-format",
-        "z": "8ebe4c955dce045f",
-        "name": "BLOG DB 생성",
-        "query": "CREATE TABLE IF NOT EXISTS blog(  \n   id INTEGER PRIMARY KEY AUTOINCREMENT,  \n   subject TEXT NOT NULL,\n   url     TEXT NOT NULL, \n   summary TEXT NOT NULL,\n   detail TEXT NOT NULL,\n   datetime  TIMESTAMP DEFAULT (datetime('now','localtime'))\n);",
-        "vars": "",
-        "outField": "topic",
-        "x": 400,
-        "y": 480,
-        "wires": [
-            [
-                "ab6e646dc8291a10"
-            ]
-        ]
-    },
-    {
-        "id": "ab6e646dc8291a10",
-        "type": "sqlite",
-        "z": "8ebe4c955dce045f",
-        "mydb": "482fbf50457bbd81",
-        "sqlquery": "msg.topic",
-        "sql": "",
-        "name": "",
-        "x": 630,
-        "y": 480,
-        "wires": [
-            [
-                "57dd2eb82edaca95"
-            ]
-        ]
-    },
-    {
-        "id": "57dd2eb82edaca95",
-        "type": "debug",
-        "z": "8ebe4c955dce045f",
-        "name": "debug 7",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 820,
-        "y": 480,
-        "wires": []
-    },
-    {
-        "id": "f965f2a8cf1eea14",
-        "type": "inject",
-        "z": "8ebe4c955dce045f",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 180,
-        "y": 480,
-        "wires": [
-            [
-                "c1212a22a5ddaa20"
-            ]
-        ]
-    },
-    {
-        "id": "7e2db76dbac77ff4",
-        "type": "sqlstring-format",
-        "z": "8ebe4c955dce045f",
-        "name": "BLOG DB 삭제",
-        "query": "DROP TABLE blog;",
-        "vars": "",
-        "outField": "topic",
-        "x": 400,
-        "y": 540,
-        "wires": [
-            [
-                "ab6e646dc8291a10"
-            ]
-        ]
-    },
-    {
-        "id": "2bc1c04b596090cb",
-        "type": "inject",
-        "z": "8ebe4c955dce045f",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 180,
-        "y": 540,
-        "wires": [
-            [
-                "7e2db76dbac77ff4"
-            ]
-        ]
-    },
-    {
-        "id": "0781382c586d570f",
-        "type": "sqlstring-format",
-        "z": "8ebe4c955dce045f",
-        "name": "BLOG DB view",
-        "query": "SELECT * FROM blog;",
-        "vars": "",
-        "outField": "topic",
-        "x": 400,
-        "y": 600,
-        "wires": [
-            [
-                "ab6e646dc8291a10"
-            ]
-        ]
-    },
-    {
-        "id": "17c13b6f1d1870eb",
-        "type": "inject",
-        "z": "8ebe4c955dce045f",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 180,
-        "y": 600,
-        "wires": [
-            [
-                "0781382c586d570f"
-            ]
-        ]
-    },
-    {
-        "id": "70f2f02d5bc59e9d",
-        "type": "sqlstring-format",
-        "z": "8ebe4c955dce045f",
-        "name": "BLOG DB insert",
-        "query": "INSERT INTO blog(subject,url,summary,detail) VALUES(\"Test\",\"#\",\"요약\",\"내 용\");",
-        "vars": "",
-        "outField": "topic",
-        "x": 380,
-        "y": 660,
-        "wires": [
-            [
-                "ab6e646dc8291a10"
-            ]
-        ]
-    },
-    {
-        "id": "0af7cc98597bf7b6",
-        "type": "inject",
-        "z": "8ebe4c955dce045f",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 180,
-        "y": 660,
-        "wires": [
-            [
-                "70f2f02d5bc59e9d"
-            ]
-        ]
-    },
-    {
-        "id": "c7461af651303681",
-        "type": "sqlstring-format",
-        "z": "8ebe4c955dce045f",
-        "name": "BLOG DB view",
-        "query": "SELECT * FROM blog\nORDER BY id DESC\nLIMIT 3;",
-        "vars": "",
-        "outField": "topic",
-        "x": 380,
-        "y": 740,
-        "wires": [
-            [
-                "ab6e646dc8291a10"
-            ]
-        ]
-    },
-    {
-        "id": "d3b0aa8dd01529d0",
-        "type": "inject",
-        "z": "8ebe4c955dce045f",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 180,
-        "y": 740,
-        "wires": [
-            [
-                "c7461af651303681"
-            ]
-        ]
-    },
-    {
-        "id": "98090de0860cf3ae",
-        "type": "uibuilder",
-        "z": "3b91390c64b4ab92",
-        "g": "c1c0f68e0bc7b18d",
-        "name": "home page index",
-        "topic": "",
-        "url": "index",
+        "width": "24",
+        "height": "12",
+        "format": "<!-- Include stylesheet -->\n<link href=\"https://cdn.quilljs.com/1.3.6/quill.snow.css\" rel=\"stylesheet\">\n<style>{{msg.style}}</style>\n<div id=\"form-container\" class=\"container\">\n    <form>\n        <div class=\"row\">\n            <div>\n                <div class=\"form-group\">\n                    <label for=\"subject\">제 목</label>\n                    <input id=\"subject\" class=\"form-control\" style=\"width:200px\" name=\"subject\" type=\"text\" placeholder=\"제목을 입력 하세요\" required>\n                </div>\n                <div class=\"form-group\">\n                    <label for=\"summary\">요 약</label>\n                    <input id = \"summary\" class=\"form-control\" style=\"width:400px\" name=\"summary\" type=\"text\" placeholder=\"요약 내용을 입력 하세요\" required>\n                </div>\n                <div class=\"form-group\">\n                    <label for=\"url\">이미지</label>\n                    <input id = \"url\" class=\"form-control\" style=\"width:200px\" name=\"summary\" type=\"text\" placeholder=\"타이틀 이미지 url정보\" required>\n                </div>\n            </div>\n        </div>\n        <div class=\"row form-group\">\n            <label for=\"detail\">상세내용</label>\n            <input name=\"detail\" type=\"hidden\" >\n            <div id=\"editor-container\">\n                {{msg.payload}}\n            </div>\n        </div>\n        <div class=\"row\">\n            <md-button  ng-click=\"send({payload:action()})\">문서저장</md-button>\n            <!--button class=\"btn btn-primary\" type=\"submit\">문서 저장</button-->\n        </div>\n    </form>\n</div>    \n<!-- Initialize Quill editor -->\n\n\n<script>\n    var toolbarOptions = [\n        ['bold', 'italic', 'underline', 'strike'], // toggled buttons\n        ['blockquote','code-block'],\n\n        [{ 'header': 1 }, { 'header': 2 },{ 'header': 3 }], // custom button values\n        [{ 'list': 'ordered'}, { 'list': 'bullet' }],\n        [{ 'script': 'sub'}, { 'script': 'super' }], // superscript/subscript\n        [{ 'indent': '-1'}, { 'indent': '+1' }], // outdent/indent\n        [{ 'direction': 'rtl' }], // text direction\n\n        [{ 'size': ['small', false, 'large', 'huge'] }], // custom dropdown\n        [{ 'header': [1, 2, 3, 4, 5, 6, false] }],\n\n        [{ 'color': [] }, { 'background': [] }], // dropdown with defaults from theme\n        [{ 'font': [] }],\n        [{ 'align': [] }],\n\n        ['clean', 'image', 'video','link' ]\n    ];\n    var quill = new Quill('#editor-container', {\n        modules: {\n        toolbar: toolbarOptions\n        },\n        theme: 'snow'\n    });\n\n    (function(scope) {\n        scope.$watch('msg', function(msg) {\n            if (msg){\n               var payload = msg.payload;\n               if(payload.hasOwnProperty('ops')== true){\n                    quill.setContents(payload);\n               }else{\n                    quill.setText(payload);\n               }\n            }\n           \n        });    \n    })(scope);    \n    //var value ={};\n    this.scope.action = function() { \n        var subject = $(\"#subject\").val();\n        var summary = $(\"#summary\").val();\n        var url = $(\"#url\").val();\n        var detail = document.querySelector('input[name=detail]');\n        detail.value = JSON.stringify(quill.getContents());\n        var result = {\n                subject:subject,\n                summary:summary,\n                url:url,\n                detail:detail.value\n        }\n        return result;\n    }\n\n\n    </script>\n\n    ",
+        "storeOutMessages": true,
         "fwdInMessages": false,
-        "allowScripts": false,
-        "allowStyles": false,
-        "copyIndex": true,
-        "templateFolder": "blank",
-        "extTemplate": "",
-        "showfolder": false,
-        "reload": true,
-        "sourceFolder": "src",
-        "deployedVersion": "6.4.1",
-        "showMsgUib": false,
-        "x": 510,
-        "y": 120,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 620,
+        "y": 240,
         "wires": [
             [
-                "ef27e0b44dc25a19",
-                "0c7a9e1e195432c9"
-            ],
-            [
-                "c884d318f9fa07b0",
-                "c2123b3fcd30e2fe"
+                "b8fab596d031ce3c",
+                "b9aa2003e8ba980d"
             ]
         ]
     },
     {
-        "id": "ef27e0b44dc25a19",
-        "type": "debug",
-        "z": "3b91390c64b4ab92",
-        "g": "c1c0f68e0bc7b18d",
-        "name": "debug 1",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 740,
-        "y": 100,
-        "wires": []
+        "id": "395dac710754c909",
+        "type": "template",
+        "z": "d66642cf4bf64b92",
+        "g": "4109f40d8078ede0",
+        "name": "Style css",
+        "field": "style",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "\n#form-container {\n    width: 100%;\n}\n\ninput {\n    margin-top : 10px;\n}\n.row {\n    margin-top: 15px;\n}\n.row.form-group {\npadding-left: 15px;\npadding-right: 15px;\n}\n.btn {\nmargin-left: 15px;\n}\n\n.change-link {\nbackground-color: #000;\nborder-bottom-left-radius: 6px;\nborder-bottom-right-radius: 6px;\nbottom: 0;\ncolor: #fff;\nopacity: 0.8;\npadding: 4px;\nposition: absolute;\ntext-align: center;\nwidth: 150px;\n}\n.change-link:hover {\ncolor: #fff;\ntext-decoration: none;\n}\n\nimg {\nwidth: 150px;\n}\n\n#editor-container {\nheight: 350px;\n}",
+        "output": "str",
+        "x": 620,
+        "y": 200,
+        "wires": [
+            [
+                "2f8c341b170dfaa0"
+            ]
+        ]
     },
     {
-        "id": "c884d318f9fa07b0",
+        "id": "a929050d4d080e0b",
+        "type": "inject",
+        "z": "d66642cf4bf64b92",
+        "g": "4109f40d8078ede0",
+        "name": "반가워요. \\n 아래의 내용을 입력 해 주세요",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "반가워요. 아래의 내용을 입력 해 주세요",
+        "payloadType": "str",
+        "x": 380,
+        "y": 160,
+        "wires": [
+            [
+                "395dac710754c909"
+            ]
+        ]
+    },
+    {
+        "id": "b9aa2003e8ba980d",
         "type": "debug",
-        "z": "3b91390c64b4ab92",
-        "g": "c1c0f68e0bc7b18d",
-        "name": "debug 2",
+        "z": "d66642cf4bf64b92",
+        "g": "4109f40d8078ede0",
+        "name": "debug 10",
         "active": true,
         "tosidebar": true,
         "console": false,
@@ -820,819 +210,943 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 740,
-        "y": 140,
+        "x": 800,
+        "y": 160,
         "wires": []
     },
     {
-        "id": "1dd63984d96b6038",
-        "type": "inject",
-        "z": "3b91390c64b4ab92",
-        "g": "c1c0f68e0bc7b18d",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "Start Homepage",
-        "payload": "",
-        "payloadType": "date",
-        "x": 230,
-        "y": 80,
+        "id": "b8fab596d031ce3c",
+        "type": "function",
+        "z": "d66642cf4bf64b92",
+        "g": "4109f40d8078ede0",
+        "name": "check input",
+        "func": "var p = msg.payload;\nif(p.subject ==\"\" || p.summary ==\"\" || p.url == \"\" ){\n    msg.topic = \"경고\";\n    msg.payload = \"정확한 정보를 입력 하세요\";\n    return [null, msg];\n}else{\n    var topic = \"INSERT INTO blog(subject, url, summary, detail) VALUES('\" + p.subject + \"','\" + p.url + \"','\" + p.summary + \"','\" + p.detail + \"');\";\n    msg.topic = topic;\n    return [msg, null];\n}\n",
+        "outputs": 2,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 850,
+        "y": 240,
         "wires": [
             [
-                "98090de0860cf3ae"
+                "568a8f4c080c13c1",
+                "f94831cbc120ea57",
+                "395dac710754c909"
+            ],
+            [
+                "c50342702f9e6384",
+                "395dac710754c909"
             ]
         ]
     },
     {
-        "id": "bd1485b0ecf6ccc5",
-        "type": "link in",
-        "z": "3b91390c64b4ab92",
-        "g": "c1c0f68e0bc7b18d",
-        "name": "home page in",
-        "links": [
-            "61cec57fa6f19722",
-            "d4dde046d8d24e1c"
-        ],
-        "x": 275,
-        "y": 160,
-        "wires": [
-            [
-                "98090de0860cf3ae"
-            ]
-        ]
-    },
-    {
-        "id": "d545389905561538",
-        "type": "template",
-        "z": "3b91390c64b4ab92",
-        "g": "0339124586ae5641",
-        "name": "html form 생성",
-        "field": "payload",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "<li class=\"dropdown\"><a href=\"#\"><span>{{title}}</span> <i class=\"bi bi-chevron-down\"></i></a>\n  <ul>\n    {{#payload}}\n      <li><a href={{url}}>{{title}}</a></li>\n    {{/payload}}\n  </ul>\n</li>",
-        "output": "str",
-        "x": 620,
-        "y": 540,
-        "wires": [
-            [
-                "664fdb5d723dda1f"
-            ]
-        ]
-    },
-    {
-        "id": "664fdb5d723dda1f",
-        "type": "uib-element",
-        "z": "3b91390c64b4ab92",
-        "g": "0339124586ae5641",
-        "name": "",
+        "id": "c50342702f9e6384",
+        "type": "ui_toast",
+        "z": "d66642cf4bf64b92",
+        "g": "4109f40d8078ede0",
+        "position": "dialog",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 1,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "className": "",
         "topic": "",
-        "elementtype": "li",
-        "parent": "#navbar",
-        "parentSource": "",
-        "parentSourceType": "str",
-        "elementid": "",
-        "elementId": "",
-        "elementIdSourceType": "str",
-        "heading": "",
-        "headingSourceType": "str",
-        "headingLevel": "h2",
-        "position": "last",
-        "positionSourceType": "str",
-        "confData": {},
-        "x": 830,
-        "y": 540,
+        "name": "",
+        "x": 1110,
+        "y": 260,
         "wires": [
-            [
-                "61cec57fa6f19722"
-            ]
+            []
         ]
     },
     {
-        "id": "939f0caf4b648ff0",
-        "type": "inject",
-        "z": "3b91390c64b4ab92",
-        "g": "0339124586ae5641",
-        "name": "기술자료 메뉴 \\n insert",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 170,
-        "y": 500,
-        "wires": [
-            [
-                "75759424346f2bef"
-            ]
-        ]
-    },
-    {
-        "id": "61cec57fa6f19722",
+        "id": "568a8f4c080c13c1",
         "type": "link out",
-        "z": "3b91390c64b4ab92",
-        "g": "0339124586ae5641",
-        "name": "header out",
+        "z": "d66642cf4bf64b92",
+        "g": "4109f40d8078ede0",
+        "name": "blog insert out",
         "mode": "link",
         "links": [
-            "bd1485b0ecf6ccc5"
+            "d8ab82a7efb57211"
         ],
-        "x": 1075,
-        "y": 620,
+        "x": 1005,
+        "y": 180,
         "wires": []
     },
     {
-        "id": "75759424346f2bef",
+        "id": "f94831cbc120ea57",
+        "type": "debug",
+        "z": "d66642cf4bf64b92",
+        "g": "4109f40d8078ede0",
+        "name": "debug 11",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1140,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "53301869c9a8e9d0",
+        "type": "ui_upload",
+        "z": "d66642cf4bf64b92",
+        "g": "b5521009710765be",
+        "group": "150516e9aeff2484",
+        "title": "블로그 업로드",
+        "accept": "",
+        "name": "",
+        "order": 2,
+        "width": "24",
+        "height": "3",
+        "chunk": 256,
+        "transfer": "binary",
+        "x": 290,
+        "y": 380,
+        "wires": [
+            [
+                "4879656104586e6b"
+            ]
+        ]
+    },
+    {
+        "id": "4879656104586e6b",
+        "type": "join",
+        "z": "d66642cf4bf64b92",
+        "g": "b5521009710765be",
+        "name": "",
+        "mode": "auto",
+        "build": "object",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": "\\n",
+        "joinerType": "str",
+        "accumulate": "false",
+        "timeout": "",
+        "count": "",
+        "reduceRight": false,
+        "x": 450,
+        "y": 380,
+        "wires": [
+            [
+                "c9056ed8587242f0"
+            ]
+        ]
+    },
+    {
+        "id": "c9056ed8587242f0",
         "type": "function",
-        "z": "3b91390c64b4ab92",
-        "g": "0339124586ae5641",
-        "name": "참조자료list",
-        "func": "var payload = [\n    {\n        url:\"https://www.canva.com/design/DAFnwFfSH7U/RaWDFtVAx752dwN2pM3C3w/view?continue_in_browser=true\",\n        title:\"회사소개자료\"\n    },\n    {\n        url:\"https://www.canva.com/design/DAFih0m28ms/BtBeuM5dn5euPC56DFPhtw/view?continue_in_browser=true\",\n        title:\"인공지능활용\"\n    }\n];\n\nreturn {title:\"기술자료\", payload:payload};",
+        "z": "d66642cf4bf64b92",
+        "g": "b5521009710765be",
+        "name": "setup save condition",
+        "func": "var p = msg.payload;\nvar file = msg.file;\n\nvar newMsg = {\n    path: \"/home/bae-dev02/Pnodered/module/homepage/static/images/blog/\" + file.name,\n    payload: p\n};\n\nreturn newMsg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 610,
-        "y": 500,
+        "x": 660,
+        "y": 380,
         "wires": [
             [
-                "d545389905561538"
+                "dadcfda23db212d3"
             ]
         ]
     },
     {
-        "id": "0c7a9e1e195432c9",
-        "type": "link out",
-        "z": "3b91390c64b4ab92",
-        "g": "c1c0f68e0bc7b18d",
-        "name": "home out",
-        "mode": "link",
-        "links": [
-            "9d8ed5cca638f9fc"
-        ],
-        "x": 705,
-        "y": 60,
+        "id": "dadcfda23db212d3",
+        "type": "file",
+        "z": "d66642cf4bf64b92",
+        "g": "b5521009710765be",
+        "name": "파일업로드",
+        "filename": "path",
+        "filenameType": "msg",
+        "appendNewline": false,
+        "createDir": true,
+        "overwriteFile": "true",
+        "encoding": "none",
+        "x": 890,
+        "y": 380,
+        "wires": [
+            [
+                "66bed8adf8e3c08e"
+            ]
+        ]
+    },
+    {
+        "id": "66bed8adf8e3c08e",
+        "type": "debug",
+        "z": "d66642cf4bf64b92",
+        "g": "b5521009710765be",
+        "name": "debug 12",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1100,
+        "y": 380,
         "wires": []
     },
     {
-        "id": "9d8ed5cca638f9fc",
-        "type": "link in",
-        "z": "3b91390c64b4ab92",
-        "g": "b0590fb7a764c023",
-        "name": "home in",
-        "links": [
-            "0c7a9e1e195432c9"
+        "id": "c8586af41b745f78",
+        "type": "comment",
+        "z": "d66642cf4bf64b92",
+        "g": "bd3627f098f79991",
+        "name": "File Browser참조",
+        "info": "1) Update the default folder in the Init node\n2) Update the default folder in the Reset node as well\n3) You can duplicate the Reset nodes and use them as saved shortcuts\n4) Check the Convert Timestamps function node if you want to see your dates in a different format. I just used the Javascript toISOString format.\n5) The Graph button can read any CSV file which have any number of values, but the first column always contains a timestamp column with javascript timestamp of the data point.\nflows.nodered.org/flow/44bc7ad491aacb4253dd8a5f757b5407",
+        "x": 260,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "41a66048ec4521fd",
+        "type": "inject",
+        "z": "d66642cf4bf64b92",
+        "g": "bd3627f098f79991",
+        "name": "Init",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
         ],
-        "x": 1215,
-        "y": 160,
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "change",
+        "payload": "/home/bae-dev02/Pnodered/module/homepage/static/images",
+        "payloadType": "str",
+        "x": 250,
+        "y": 540,
         "wires": [
             [
-                "23e05efdeb790011"
+                "263f2f5de6795b4d"
             ]
         ]
     },
     {
-        "id": "23e05efdeb790011",
+        "id": "f413d3c0e2f9712e",
+        "type": "ui_button",
+        "z": "d66642cf4bf64b92",
+        "g": "bd3627f098f79991",
+        "name": "",
+        "group": "160e81fb.f1c86e",
+        "order": 1,
+        "width": "2",
+        "height": "1",
+        "passthru": true,
+        "label": "Refresh",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "refresh",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "refresh",
+        "topicType": "str",
+        "x": 240,
+        "y": 580,
+        "wires": [
+            [
+                "263f2f5de6795b4d"
+            ]
+        ]
+    },
+    {
+        "id": "4a1fc0dd3cfa29c8",
+        "type": "ui_dropdown",
+        "z": "d66642cf4bf64b92",
+        "g": "bd3627f098f79991",
+        "name": "File Selector",
+        "label": "",
+        "tooltip": "",
+        "place": "파일 선택",
+        "group": "160e81fb.f1c86e",
+        "order": 9,
+        "width": "3",
+        "height": "1",
+        "passthru": false,
+        "multiple": false,
+        "options": [
+            {
+                "label": "",
+                "value": "",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "",
+        "topicType": "str",
+        "className": "",
+        "x": 1050,
+        "y": 580,
+        "wires": [
+            [
+                "c116fbf23c2bf557"
+            ]
+        ]
+    },
+    {
+        "id": "44dbc119665b184a",
+        "type": "function",
+        "z": "d66642cf4bf64b92",
+        "g": "bd3627f098f79991",
+        "name": "Format data",
+        "func": "// format the data for the dropdown\nmsg.options = [];\nfor (var i=0; i<msg.payload.length; i++) {\n    // This is a file\n    obj = {};\n    obj [msg.payload[i].name.replace(/^.*(\\\\|\\/|\\:)/, '')]=msg.payload[i].name;\n    msg.options.push(obj);\n}\nmsg.payload={};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 870,
+        "y": 560,
+        "wires": [
+            [
+                "4a1fc0dd3cfa29c8"
+            ]
+        ]
+    },
+    {
+        "id": "8caf090378be1aba",
+        "type": "ui_template",
+        "z": "d66642cf4bf64b92",
+        "g": "bd3627f098f79991",
+        "group": "160e81fb.f1c86e",
+        "name": "",
+        "order": 6,
+        "width": "24",
+        "height": "9",
+        "format": "<style>\ntable {    \n    text-align: center;\n}\n</style>\n<div ng-bind-html=\"msg.payload\" height=\"400\" style=\"height: 400px;\"><br/>\n</div>\n\n",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": false,
+        "templateScope": "local",
+        "className": "",
+        "x": 1240,
+        "y": 640,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "def14c8d8d9d5212",
+        "type": "template",
+        "z": "d66642cf4bf64b92",
+        "g": "bd3627f098f79991",
+        "name": "",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "\n<caption>\n      <strong>저장 파일 정보</strong>\n      <br>\n</caption>\n<table width=\"100%\" style=\"text-align: center\" >\n    <tr><th style=\"width:30%\">사진</th><th style=\"width:10%\">파일명</th><th style=\"width:20%\">Size(Byte)</th><th style=\"width:20%\">생성일</th><th style=\"width:20%\">수정일</th></tr>\n    {{#payload}}\n        <tr>\n            <td><a href=\"{{url}}\"  target='_blank'><img src=\"{{url}}\" width='50px'></a></td>\n            <td>{{fname}}</td>\n            <td>{{stat.size}}</td>\n            <td>{{stat.created}}</td>\n            <td>{{stat.changed}}</td>\n        </tr>\n    {{/payload}}\n</table>\n",
+        "output": "str",
+        "x": 1080,
+        "y": 640,
+        "wires": [
+            [
+                "8caf090378be1aba"
+            ]
+        ]
+    },
+    {
+        "id": "4583b21003a062c2",
+        "type": "function",
+        "z": "d66642cf4bf64b92",
+        "g": "bd3627f098f79991",
+        "name": "Convert timestamps",
+        "func": "for (var i=0; i<msg.payload.length; i++) {\n    msg.payload[i].stat.created = msg.payload[i].stat.created.toISOString().slice(0, 19).replace('T', ' ');\n    msg.payload[i].stat.changed = msg.payload[i].stat.changed.toISOString().slice(0, 19).replace('T', ' ');\n    msg.payload[i].stat.accessed = msg.payload[i].stat.accessed.toISOString().slice(0, 19).replace('T', ' ');\n    msg.payload[i].stat.statusChanged = msg.payload[i].stat.statusChanged.toISOString().slice(0, 19).replace('T', ' ');\n    msg.payload[i].fname = msg.payload[i].name.replace(/^.*(\\\\|\\/|\\:)/, '');\n    var url = msg.payload[i].name;\n    msg.payload[i].url = \"../\" + url.substr(48);\n}\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 880,
+        "y": 640,
+        "wires": [
+            [
+                "def14c8d8d9d5212"
+            ]
+        ]
+    },
+    {
+        "id": "2efac2e5d888c534",
+        "type": "ui_button",
+        "z": "d66642cf4bf64b92",
+        "g": "bd3627f098f79991",
+        "name": "",
+        "group": "160e81fb.f1c86e",
+        "order": 10,
+        "width": "2",
+        "height": "1",
+        "passthru": false,
+        "label": "Delete",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "delete",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "",
+        "topicType": "str",
+        "x": 230,
+        "y": 880,
+        "wires": [
+            [
+                "91abd97bbdd5f22c"
+            ]
+        ]
+    },
+    {
+        "id": "6520a7d12782f46a",
+        "type": "function",
+        "z": "d66642cf4bf64b92",
+        "g": "bd3627f098f79991",
+        "name": "Get filename",
+        "func": "// Get the filename from the flow context\nlet filename = flow.get(\"fileselected\");\n\n// check, if the filename is undefined that means it does not exist yet, nothing is selected yet\n// return: do not output anything\nif (filename===undefined) {\n    return;\n}\n\n// return the filename to the file-in node to delete\nmsg.filename = filename;\n\nif (msg.filename.replace(/^.*(\\\\|\\/|\\:)/, '')[0]!==\".\") {\n    // Only do this if this is a file, we don't delete folders\n    // and delete the context/selection as we are deleting the file as well\n    flow.set(\"fileselected\");\n    return msg;\n}",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 630,
+        "y": 820,
+        "wires": [
+            [
+                "e8c3485ce0bb1ce2"
+            ]
+        ]
+    },
+    {
+        "id": "e8c3485ce0bb1ce2",
+        "type": "file",
+        "z": "d66642cf4bf64b92",
+        "g": "bd3627f098f79991",
+        "name": "Delete file",
+        "filename": "filename",
+        "filenameType": "msg",
+        "appendNewline": true,
+        "createDir": false,
+        "overwriteFile": "delete",
+        "encoding": "none",
+        "x": 820,
+        "y": 820,
+        "wires": [
+            [
+                "4d1b8d515f96be96"
+            ]
+        ]
+    },
+    {
+        "id": "faf39ee597205f88",
+        "type": "http in",
+        "z": "d66642cf4bf64b92",
+        "g": "bd3627f098f79991",
+        "name": "",
+        "url": "/download",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 240,
+        "y": 940,
+        "wires": [
+            [
+                "d732dc31aa2a4d56"
+            ]
+        ]
+    },
+    {
+        "id": "4f466fadd0ca1bdf",
+        "type": "http response",
+        "z": "d66642cf4bf64b92",
+        "g": "bd3627f098f79991",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 1070,
+        "y": 940,
+        "wires": []
+    },
+    {
+        "id": "d732dc31aa2a4d56",
+        "type": "function",
+        "z": "d66642cf4bf64b92",
+        "g": "bd3627f098f79991",
+        "name": "Get the file name",
+        "func": "msg.filename = msg.req.query.filename;\nmsg.contentdisposition = \"attachment; filename=\\\"\" + msg.req.query.filename.replace(/^.*(\\\\|\\/|\\:)/, '') + \"\\\"\";\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 490,
+        "y": 940,
+        "wires": [
+            [
+                "4379f74941d388de"
+            ]
+        ],
+        "outputLabels": [
+            "Folder selected",
+            "File selected"
+        ]
+    },
+    {
+        "id": "4379f74941d388de",
+        "type": "file in",
+        "z": "d66642cf4bf64b92",
+        "g": "bd3627f098f79991",
+        "name": "",
+        "filename": "filename",
+        "filenameType": "msg",
+        "format": "",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "x": 720,
+        "y": 940,
+        "wires": [
+            [
+                "bc4fe340501b33fb"
+            ]
+        ]
+    },
+    {
+        "id": "bc4fe340501b33fb",
+        "type": "change",
+        "z": "d66642cf4bf64b92",
+        "g": "bd3627f098f79991",
+        "name": "Set Headers",
+        "rules": [
+            {
+                "t": "set",
+                "p": "headers",
+                "pt": "msg",
+                "to": "{}",
+                "tot": "json"
+            },
+            {
+                "t": "set",
+                "p": "headers.content-type",
+                "pt": "msg",
+                "to": "text/csv",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "headers.Content-Disposition",
+                "pt": "msg",
+                "to": "contentdisposition",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 890,
+        "y": 940,
+        "wires": [
+            [
+                "4f466fadd0ca1bdf"
+            ]
+        ]
+    },
+    {
+        "id": "0194d2782becdaf4",
+        "type": "ui_toast",
+        "z": "d66642cf4bf64b92",
+        "g": "bd3627f098f79991",
+        "position": "dialog",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": false,
+        "outputs": 1,
+        "ok": "아니오",
+        "cancel": "예",
+        "raw": false,
+        "className": "",
+        "topic": "",
+        "name": "Confirmation",
+        "x": 670,
+        "y": 880,
+        "wires": [
+            [
+                "5fdd69edf6fa788a"
+            ]
+        ]
+    },
+    {
+        "id": "91abd97bbdd5f22c",
+        "type": "change",
+        "z": "d66642cf4bf64b92",
+        "g": "bd3627f098f79991",
+        "name": "Set message",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "Delete confirmation",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "파일을 삭제 하시겠습니까?",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 450,
+        "y": 880,
+        "wires": [
+            [
+                "0194d2782becdaf4"
+            ]
+        ]
+    },
+    {
+        "id": "5fdd69edf6fa788a",
         "type": "switch",
-        "z": "3b91390c64b4ab92",
-        "g": "b0590fb7a764c023",
-        "name": "front end input \\n seperate by type",
-        "property": "payload.type",
+        "z": "d66642cf4bf64b92",
+        "g": "bd3627f098f79991",
+        "name": "",
+        "property": "payload",
         "propertyType": "msg",
         "rules": [
             {
                 "t": "eq",
-                "v": "home_guestion",
+                "v": "예",
                 "vt": "str"
-            },
-            {
-                "t": "else"
             }
         ],
         "checkall": "true",
         "repair": false,
-        "outputs": 2,
-        "x": 1360,
-        "y": 160,
+        "outputs": 1,
+        "x": 850,
+        "y": 880,
         "wires": [
             [
-                "bbe4af30b3d49353"
-            ],
-            []
+                "6520a7d12782f46a"
+            ]
         ]
     },
     {
-        "id": "c2123b3fcd30e2fe",
-        "type": "switch",
-        "z": "3b91390c64b4ab92",
-        "g": "c1c0f68e0bc7b18d",
-        "name": "클라이언트 \\n 접속 여부 파악",
-        "property": "uibuilderCtrl",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "regex",
-                "v": "connect",
-                "vt": "str",
-                "case": false
-            },
-            {
-                "t": "else"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 2,
-        "x": 760,
-        "y": 200,
-        "wires": [
-            [
-                "e87728a438d4e97c",
-                "702e87d0306cb302"
-            ],
-            []
-        ]
-    },
-    {
-        "id": "e87728a438d4e97c",
-        "type": "link out",
-        "z": "3b91390c64b4ab92",
-        "g": "c1c0f68e0bc7b18d",
-        "name": "client out",
-        "mode": "link",
-        "links": [
-            "aa83b369347994bc"
-        ],
-        "x": 905,
-        "y": 200,
-        "wires": []
-    },
-    {
-        "id": "aa83b369347994bc",
-        "type": "link in",
-        "z": "3b91390c64b4ab92",
-        "g": "0339124586ae5641",
-        "name": "client in",
-        "links": [
-            "e87728a438d4e97c"
-        ],
-        "x": 265,
+        "id": "263f2f5de6795b4d",
+        "type": "function",
+        "z": "d66642cf4bf64b92",
+        "g": "bd3627f098f79991",
+        "name": "Folder handling",
+        "func": "let folder = context.get(\"folder\");\nif (folder===undefined) {\n    folder=\"/\";\n    context.set(\"folder\", folder);\n}\n\nlet hidden = context.get(\"hidden\");\nif (hidden===undefined) {\n    hidden=false;\n    context.set(\"hidden\", hidden);\n}\n\nif (msg.topic===\"up\") {\n    var the_arr = folder.split('/');\n    the_arr.pop();\n    folder=the_arr.join('/'); \n    context.set(\"folder\", folder);\n}\nif (msg.topic===\"change\") {\n    folder=msg.payload;    \n    context.set(\"folder\", folder);\n}\nif (msg.topic===\"hidden\") {\n    hidden=msg.payload;    \n    context.set(\"hidden\", hidden);\n}\n\nmsg.payload = {\"start\":folder, \"hidden\": hidden};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 440,
         "y": 540,
         "wires": [
             [
-                "08ddd97e1f7d2d1d",
-                "8b21783d27166498"
+                "81c5ee8f4f4218e6",
+                "2c875a634c498e34",
+                "8268c64aa7a51baf"
             ]
         ]
     },
     {
-        "id": "702e87d0306cb302",
+        "id": "2c875a634c498e34",
+        "type": "ui_text",
+        "z": "d66642cf4bf64b92",
+        "g": "bd3627f098f79991",
+        "group": "160e81fb.f1c86e",
+        "order": 4,
+        "width": "8",
+        "height": "1",
+        "name": "",
+        "label": "Folder:",
+        "format": "{{msg.payload.start}}",
+        "layout": "row-left",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": "",
+        "color": "#000000",
+        "x": 660,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "b8f8fe8e908fd515",
+        "type": "ui_button",
+        "z": "d66642cf4bf64b92",
+        "g": "bd3627f098f79991",
+        "name": "",
+        "group": "160e81fb.f1c86e",
+        "order": 3,
+        "width": "2",
+        "height": "1",
+        "passthru": false,
+        "label": "Up",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "arrow_upwards",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "up",
+        "x": 250,
+        "y": 660,
+        "wires": [
+            [
+                "263f2f5de6795b4d"
+            ]
+        ]
+    },
+    {
+        "id": "93200da07dd49c90",
+        "type": "function",
+        "z": "d66642cf4bf64b92",
+        "g": "bd3627f098f79991",
+        "name": "Change folder",
+        "func": "// Get the filename from the flow context\nlet folderselected = flow.get(\"folderselected\");\n\n// check, if the filename is undefined that means it does not exist yet, nothing is selected yet\n// return: do not output anything\nif (folderselected===undefined) {\n    return;\n}\n\nmsg.topic = \"change\";\nmsg.payload = folderselected;\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 220,
+        "y": 740,
+        "wires": [
+            [
+                "263f2f5de6795b4d"
+            ]
+        ]
+    },
+    {
+        "id": "426d8be1e1c1c47f",
+        "type": "ui_button",
+        "z": "d66642cf4bf64b92",
+        "g": "bd3627f098f79991",
+        "name": "",
+        "group": "160e81fb.f1c86e",
+        "order": 2,
+        "width": "2",
+        "height": "1",
+        "passthru": false,
+        "label": "Reset",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "autorenew",
+        "payload": "/media/bridge/SIGN01/repository/noderedstatic/sd/images",
+        "payloadType": "str",
+        "topic": "change",
+        "topicType": "str",
+        "x": 250,
+        "y": 620,
+        "wires": [
+            [
+                "263f2f5de6795b4d"
+            ]
+        ]
+    },
+    {
+        "id": "3fedf4fd47a2e5a4",
+        "type": "ui_dropdown",
+        "z": "d66642cf4bf64b92",
+        "g": "bd3627f098f79991",
+        "name": "Folder Selector",
+        "label": "",
+        "tooltip": "",
+        "place": "조회할 폴더 선택",
+        "group": "160e81fb.f1c86e",
+        "order": 7,
+        "width": "3",
+        "height": "1",
+        "passthru": false,
+        "multiple": false,
+        "options": [
+            {
+                "label": "",
+                "value": "",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "",
+        "topicType": "str",
+        "className": "",
+        "x": 1060,
+        "y": 680,
+        "wires": [
+            [
+                "6740710d7291dbd7"
+            ]
+        ]
+    },
+    {
+        "id": "2d6df94c02fb7956",
+        "type": "function",
+        "z": "d66642cf4bf64b92",
+        "g": "bd3627f098f79991",
+        "name": "Format data",
+        "func": "// format the data for the dropdown\nmsg.options = [];\nfor (var i=0; i<msg.payload.length; i++) {\n    // This is a foler\n    obj = {};\n    obj [\"[\"+msg.payload[i].name.replace(/^.*(\\\\|\\/|\\:)/, '')+\"]\"]=msg.payload[i].name;\n    msg.options.push(obj);\n}\nmsg.payload={};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 850,
+        "y": 680,
+        "wires": [
+            [
+                "3fedf4fd47a2e5a4"
+            ]
+        ]
+    },
+    {
+        "id": "c116fbf23c2bf557",
+        "type": "change",
+        "z": "d66642cf4bf64b92",
+        "g": "bd3627f098f79991",
+        "name": "Save selection",
+        "rules": [
+            {
+                "t": "set",
+                "p": "fileselected",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1260,
+        "y": 580,
+        "wires": [
+            [
+                "cd3ecb632b83fc59"
+            ]
+        ]
+    },
+    {
+        "id": "6740710d7291dbd7",
+        "type": "change",
+        "z": "d66642cf4bf64b92",
+        "g": "bd3627f098f79991",
+        "name": "Save selection",
+        "rules": [
+            {
+                "t": "set",
+                "p": "folderselected",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1260,
+        "y": 680,
+        "wires": [
+            [
+                "b8b0c6d495afa98f",
+                "6673509206eb067a"
+            ]
+        ]
+    },
+    {
+        "id": "c50db793a0c1787d",
+        "type": "ui_switch",
+        "z": "d66642cf4bf64b92",
+        "g": "bd3627f098f79991",
+        "name": "",
+        "label": "Hidden",
+        "tooltip": "Show hidden files or not",
+        "group": "160e81fb.f1c86e",
+        "order": 5,
+        "width": "2",
+        "height": "1",
+        "passthru": false,
+        "decouple": "false",
+        "topic": "hidden",
+        "topicType": "str",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "check_box",
+        "oncolor": "#000000",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "check_box_outline_blank",
+        "offcolor": "#000000",
+        "animate": true,
+        "className": "",
+        "x": 240,
+        "y": 700,
+        "wires": [
+            [
+                "263f2f5de6795b4d"
+            ]
+        ]
+    },
+    {
+        "id": "b8b0c6d495afa98f",
         "type": "debug",
-        "z": "3b91390c64b4ab92",
-        "g": "c1c0f68e0bc7b18d",
-        "name": "debug 5",
-        "active": false,
+        "z": "d66642cf4bf64b92",
+        "g": "bd3627f098f79991",
+        "name": "debug 56",
+        "active": true,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
+        "complete": "false",
         "statusVal": "",
         "statusType": "auto",
-        "x": 940,
-        "y": 120,
+        "x": 1480,
+        "y": 680,
         "wires": []
     },
     {
-        "id": "bbe4af30b3d49353",
-        "type": "function",
-        "z": "3b91390c64b4ab92",
-        "g": "b0590fb7a764c023",
-        "name": "질문내용 DB에 저장",
-        "func": "var p = msg.payload;\nif(p.name == \"\" || p.email ==\"\" || p.subject == \"\" || p.message == \"\"){\n    return [null, { topic: \"#name\", payload: \"\" }, { topic: \"#email\", payload: \"\" }, { topic: \"#subject\", payload: \"\" }, { topic: \"#message\", payload: \"\" }, { topic: \"성명과 이메일, 제목, 문의 내용을 다 입력 해 주세요\" }, null];\n}\nvar sql = \"INSERT INTO homequestion(name,email,subject,detail,mark) VALUES('\" +p.name + \"','\" + p.email + \"','\" + p.subject + \"','\" + p.message + \"',\"+ 0 +\")\";\n\nreturn [{ topic: sql }, { topic: \"#name\", payload: \"\" }, { topic: \"#email\", payload: \"\" }, { topic: \"#subject\", payload: \"\" }, { topic: \"#message\", payload: \"\" }, {topic:\"성공적으로 저장 되었습니다.\"}, msg];",
-        "outputs": 7,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1600,
-        "y": 140,
-        "wires": [
-            [
-                "98f57c409a4158a5"
-            ],
-            [
-                "a9e09a4043df7834"
-            ],
-            [
-                "a9e09a4043df7834"
-            ],
-            [
-                "a9e09a4043df7834"
-            ],
-            [
-                "a9e09a4043df7834"
-            ],
-            [
-                "d4dde046d8d24e1c"
-            ],
-            [
-                "56164ca7de8bdb03"
-            ]
-        ]
-    },
-    {
-        "id": "98f57c409a4158a5",
-        "type": "link out",
-        "z": "3b91390c64b4ab92",
-        "g": "b0590fb7a764c023",
-        "name": "insert to db out",
-        "mode": "link",
-        "links": [
-            "adacce6afb2aaa2c"
-        ],
-        "x": 1765,
-        "y": 80,
+        "id": "cd3ecb632b83fc59",
+        "type": "debug",
+        "z": "d66642cf4bf64b92",
+        "g": "bd3627f098f79991",
+        "name": "debug 57",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1480,
+        "y": 580,
         "wires": []
     },
     {
-        "id": "a9e09a4043df7834",
-        "type": "uib-update",
-        "z": "3b91390c64b4ab92",
-        "g": "b0590fb7a764c023",
-        "name": "clear form box",
-        "topic": "",
-        "mode": "update",
-        "modeSourceType": "update",
-        "cssSelector": "topic",
-        "cssSelectorType": "msg",
-        "slotSourceProp": "",
-        "slotSourcePropType": "msg",
-        "attribsSource": "{ \"value\": payload }",
-        "attribsSourceType": "jsonata",
-        "slotPropMarkdown": false,
-        "x": 1830,
-        "y": 120,
-        "wires": [
-            [
-                "d4dde046d8d24e1c"
-            ]
-        ]
-    },
-    {
-        "id": "d4dde046d8d24e1c",
-        "type": "link out",
-        "z": "3b91390c64b4ab92",
-        "g": "b0590fb7a764c023",
-        "name": "form clear out",
-        "mode": "link",
-        "links": [
-            "bd1485b0ecf6ccc5"
-        ],
-        "x": 1995,
-        "y": 160,
-        "wires": []
-    },
-    {
-        "id": "eb7ad02419b10b56",
-        "type": "template",
-        "z": "3b91390c64b4ab92",
-        "g": "0339124586ae5641",
-        "name": "포트폴리오 정보 입력",
-        "field": "payload",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "\n        <div class=\"row awesome-project-content portfolio-container\">\n          <!-- portfolio-item start -->\n          {{#payload}}\n            <div class={{class}}>\n               <div class=\"single-awesome-project\">\n                <div class=\"awesome-img\">\n                  <a href=\"#\"><img src={{url}} alt=\"\" /></a>\n                  <div class=\"add-actions text-center\">\n                    <div class=\"project-dec\">\n                      <a class=\"portfolio-lightbox\" data-gallery=\"myGallery\" href={{url}}>\n                        <h4>{{title}}</h4>\n                        <span>{{des}}</span>\n                      </a>\n                    </div>\n                  </div>\n                </div>\n               </div>\n            </div>\n          {{/payload}}\n</div>  ",
-        "output": "str",
-        "x": 540,
-        "y": 760,
-        "wires": [
-            [
-                "9afd075034707a1e"
-            ]
-        ]
-    },
-    {
-        "id": "9afd075034707a1e",
-        "type": "uib-element",
-        "z": "3b91390c64b4ab92",
-        "g": "0339124586ae5641",
-        "name": "",
-        "topic": "",
-        "elementtype": "html",
-        "parent": "#product",
-        "parentSource": "",
-        "parentSourceType": "str",
-        "elementid": "",
-        "elementId": "",
-        "elementIdSourceType": "str",
-        "heading": "",
-        "headingSourceType": "str",
-        "headingLevel": "h2",
-        "position": "last",
-        "positionSourceType": "str",
-        "confData": {},
-        "x": 840,
-        "y": 760,
-        "wires": [
-            [
-                "61cec57fa6f19722"
-            ]
-        ]
-    },
-    {
-        "id": "86e50c49b485096d",
-        "type": "inject",
-        "z": "3b91390c64b4ab92",
-        "g": "0339124586ae5641",
-        "name": "포트폴리오 제품 정보 ",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 210,
-        "y": 720,
-        "wires": [
-            [
-                "08ddd97e1f7d2d1d"
-            ]
-        ]
-    },
-    {
-        "id": "08ddd97e1f7d2d1d",
-        "type": "function",
-        "z": "3b91390c64b4ab92",
-        "g": "0339124586ae5641",
-        "name": "포트폴리오 리스트",
-        "func": "var payload = [\n    {\n        title:\"4세대 개발 프로그램\",\n        des:\"정밀하고 빠른 개발 방법\",\n        class: \"col-md-4 col-sm-4 col-xs-12 portfolio-item filter-iot portfolio-item\",\n        url: \"/images/background/nodered.png\"\n    },\n    {\n        title: \"4세대 개발 프로그램\",\n        des: \"정밀하고 빠른 개발 방법\",\n        class: \"col-md-4 col-sm-4 col-xs-12 portfolio-item filter-iot portfolio-item\",\n        url: \"/images/background/nodered.png\"\n    }       \n];\n\nreturn {title:\"포트폴리오\", payload:payload};",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 530,
-        "y": 720,
-        "wires": [
-            [
-                "eb7ad02419b10b56"
-            ]
-        ]
-    },
-    {
-        "id": "880dc21725676eff",
-        "type": "template",
-        "z": "3b91390c64b4ab92",
-        "g": "0339124586ae5641",
-        "name": "new blog information",
-        "field": "payload",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": " <div  class=\"row\">\n    <!-- Start Left Blog -->\n    {{#payload}}\n        <div class=\"col-md-4 col-sm-4 col-xs-12\">\n          <div class=\"single-blog\">\n            <div class=\"single-blog-img\">\n              <a href=\"blog.html\">\n                <img src={{url}} alt=\"\">\n              </a>\n            </div>\n            <div class=\"blog-meta\">\n              <span class=\"date-type\">\n                <i class=\"fa fa-calendar\"></i>{{datetime}}\n              </span>\n            </div>\n            <div class=\"blog-text\">\n              <h4>\n                <a href=\"blog.html\">{{subject}}</a>\n              </h4>\n              <p>\n                {{summary}}\n              </p>\n            </div>\n            <span>\n              <a href=\"blog.html\" class=\"ready-btn\">상세보기</a>\n            </span>\n          </div>\n        \n        </div>\n    {{/payload}}\n</div>",
-        "output": "str",
-        "x": 540,
-        "y": 960,
-        "wires": [
-            [
-                "233ddd4cf5cc7af6"
-            ]
-        ]
-    },
-    {
-        "id": "233ddd4cf5cc7af6",
-        "type": "uib-element",
-        "z": "3b91390c64b4ab92",
-        "g": "0339124586ae5641",
-        "name": "",
-        "topic": "",
-        "elementtype": "html",
-        "parent": "#blog",
-        "parentSource": "",
-        "parentSourceType": "str",
-        "elementid": "",
-        "elementId": "",
-        "elementIdSourceType": "str",
-        "heading": "",
-        "headingSourceType": "str",
-        "headingLevel": "h2",
-        "position": "last",
-        "positionSourceType": "str",
-        "confData": {},
-        "x": 850,
-        "y": 960,
-        "wires": [
-            [
-                "61cec57fa6f19722"
-            ]
-        ]
-    },
-    {
-        "id": "2bbe84ced509466e",
-        "type": "inject",
-        "z": "3b91390c64b4ab92",
-        "g": "0339124586ae5641",
-        "name": "새로운 소식",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 200,
-        "y": 860,
-        "wires": [
-            [
-                "7168ab5b5301f90d"
-            ]
-        ]
-    },
-    {
-        "id": "c1874fbe5ce02116",
-        "type": "template",
-        "z": "3b91390c64b4ab92",
-        "g": "0339124586ae5641",
-        "name": "youtube 소식",
-        "field": "payload",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "<div class=\"flicker-img\">\n        {{#payload}}\n                <img src={{url}} onclick = {{function}} >\n        {{/payload}}\n</div>\n",
-        "output": "str",
-        "x": 610,
-        "y": 640,
-        "wires": [
-            [
-                "f255917285e0849d"
-            ]
-        ]
-    },
-    {
-        "id": "f255917285e0849d",
-        "type": "uib-element",
-        "z": "3b91390c64b4ab92",
-        "g": "0339124586ae5641",
-        "name": "",
-        "topic": "",
-        "elementtype": "html",
-        "parent": "#youtube",
-        "parentSource": "",
-        "parentSourceType": "str",
-        "elementid": "",
-        "elementId": "",
-        "elementIdSourceType": "str",
-        "heading": "",
-        "headingSourceType": "str",
-        "headingLevel": "h2",
-        "position": "last",
-        "positionSourceType": "str",
-        "confData": {},
-        "x": 860,
-        "y": 640,
-        "wires": [
-            [
-                "61cec57fa6f19722"
-            ]
-        ]
-    },
-    {
-        "id": "358beee49aeb1506",
-        "type": "inject",
-        "z": "3b91390c64b4ab92",
-        "g": "0339124586ae5641",
-        "name": "유튜브 소식",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 160,
-        "y": 600,
-        "wires": [
-            [
-                "69ebe9f292f28395"
-            ]
-        ]
-    },
-    {
-        "id": "d8f282763f83dfc2",
-        "type": "e-mail",
-        "z": "3b91390c64b4ab92",
-        "g": "b0590fb7a764c023",
-        "server": "smtp.gmail.com",
-        "port": "465",
-        "authtype": "BASIC",
-        "saslformat": true,
-        "token": "oauth2Response.access_token",
-        "secure": true,
-        "tls": true,
-        "name": "",
-        "dname": "",
-        "x": 2130,
-        "y": 200,
-        "wires": [],
-        "info": "ijjinpcvzxjgjygp"
-    },
-    {
-        "id": "69ebe9f292f28395",
-        "type": "function",
-        "z": "3b91390c64b4ab92",
-        "g": "0339124586ae5641",
-        "name": "유튜브 리스트",
-        "func": "var payload = [\n    {\n    url: \"/images/product/smartmirror.png\",\n    function: \"openModal('-5zcfunoVIg')\"\n    },\n    {\n      url: \"/images/product/smartfactory.png\",\n      function: \"openModal('dVFJMzT2UA8')\"\n    }\n];\n/*img src = \"/images/product/smartmirror.png\" alt = \"Smart Mirror\" onclick = \"openModal('-5zcfunoVIg')\" >\n  <img src=\"/images/product/smartfactory.png\" alt=\"Smart Factory\" onclick=\"openModal('dVFJMzT2UA8')\">\n    <img src=\"/images/product/smartfactory.png\" alt=\"Smart Factory\" onclick=\"openModal('dVFJMzT2UA8')\" */\n\nreturn {title:\"유튜브\", payload:payload};",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 610,
-        "y": 600,
-        "wires": [
-            [
-                "c1874fbe5ce02116"
-            ]
-        ]
-    },
-    {
-        "id": "884b9aa3f8addbd9",
-        "type": "function",
-        "z": "3b91390c64b4ab92",
-        "g": "0339124586ae5641",
-        "name": "최근 블로그 리스트",
-        "func": "var payload = [\n    {\n    url: \"/assets/img/blog/1.jpg\",\n    datetime: \"2023/03/27 18:29:39\",\n    summary:\"Test\"\n    },\n  {\n    url: \"/assets/img/blog/1.jpg\",\n    datetime: \"2023/03/27 18:29:39\",\n    summary: \"Test\"\n  },\n  {\n    url: \"/assets/img/blog/1.jpg\",\n    datetime: \"2023/03/27 18:29:39\",\n    summary: \"Test\"\n  },\n  {\n    url: \"/assets/img/blog/1.jpg\",\n    datetime: \"2023/03/27 18:29:39\",\n    summary: \"Test\"\n  },\n  {\n    url: \"/assets/img/blog/1.jpg\",\n    datetime: \"2023/03/27 18:29:39\",\n    summary: \"Test\"\n  },\n  {\n    url: \"/assets/img/blog/1.jpg\",\n    datetime: \"2023/03/27 18:29:39\",\n    summary: \"Test\"\n  }\n];\nreturn {title:\"블로그\", payload:payload};",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 830,
-        "y": 800,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "833addf2496ace54",
-        "type": "template",
-        "z": "3b91390c64b4ab92",
-        "g": "0339124586ae5641",
-        "name": "header template",
-        "field": "payload",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "<div class=\"container d-flex justify-content-between\">\n      <div class=\"logo\">\n        <h1><a href=\"index.html\"><span>for human life</span> <img src=\"/images/logo/fthkorea.png\" alt=\"\" class=\"img-fluid\">FTH-KOREA</a></h1>\n      </div>\n\n      <nav id=\"navbar\" class=\"navbar\">\n        <ul>\n          <li><a class=\"nav-link scrollto active\" href=\"#hero\">홈</a></li>\n          <li><a class=\"nav-link scrollto\" href=\"#about\">소개</a></li>\n          <li><a class=\"nav-link scrollto\" href=\"#services\">서비스</a></li>\n          <li><a class=\"nav-link scrollto\" href=\"#portfolio\">제품</a></li>\n          <li><a href=\"blog.html\">새소식</a></li>\n          <li><a class=\"nav-link scrollto\" href=\"#contact\">연락처</a></li>\n        </ul-->\n        <i class=\"bi bi-list mobile-nav-toggle\"></i>\n      </nav><!-- .navbar -->\n    </div>",
-        "output": "str",
-        "x": 600,
-        "y": 400,
-        "wires": [
-            [
-                "f09cc28bc3270e43"
-            ]
-        ]
-    },
-    {
-        "id": "c7830ecb4b833d8b",
-        "type": "inject",
-        "z": "3b91390c64b4ab92",
-        "g": "0339124586ae5641",
-        "name": "header 메뉴 \\n insert",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 230,
-        "y": 400,
-        "wires": [
-            [
-                "8b21783d27166498"
-            ]
-        ]
-    },
-    {
-        "id": "f09cc28bc3270e43",
-        "type": "uib-element",
-        "z": "3b91390c64b4ab92",
-        "g": "0339124586ae5641",
-        "name": "",
-        "topic": "",
-        "elementtype": "html",
-        "parent": "#header",
-        "parentSource": "",
-        "parentSourceType": "str",
-        "elementid": "",
-        "elementId": "",
-        "elementIdSourceType": "str",
-        "heading": "",
-        "headingSourceType": "str",
-        "headingLevel": "h2",
-        "position": "last",
-        "positionSourceType": "str",
-        "confData": {},
-        "x": 820,
-        "y": 400,
-        "wires": [
-            [
-                "61cec57fa6f19722"
-            ]
-        ]
-    },
-    {
-        "id": "8b21783d27166498",
-        "type": "function",
-        "z": "3b91390c64b4ab92",
-        "g": "0339124586ae5641",
-        "name": "set null",
-        "func": "var msg = {};\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 420,
-        "y": 400,
-        "wires": [
-            [
-                "833addf2496ace54",
-                "348b0d8ed6d502d8",
-                "40c8c8eb8456db2e"
-            ]
-        ]
-    },
-    {
-        "id": "348b0d8ed6d502d8",
+        "id": "6673509206eb067a",
         "type": "delay",
-        "z": "3b91390c64b4ab92",
-        "g": "0339124586ae5641",
+        "z": "d66642cf4bf64b92",
+        "g": "bd3627f098f79991",
         "name": "",
         "pauseType": "delay",
         "timeout": "100",
@@ -1646,173 +1160,118 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 430,
-        "y": 500,
+        "x": 1470,
+        "y": 740,
         "wires": [
             [
-                "75759424346f2bef",
-                "69ebe9f292f28395",
-                "7168ab5b5301f90d"
+                "93200da07dd49c90"
             ]
         ]
     },
     {
-        "id": "40c8c8eb8456db2e",
-        "type": "template",
-        "z": "3b91390c64b4ab92",
-        "g": "0339124586ae5641",
-        "name": "footer template",
-        "field": "payload",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "<div class=\"footer-area\">\n      <div class=\"container\">\n        <div class=\"row\">\n          <div class=\"col-md-4\">\n            <div class=\"footer-content\">\n              <div class=\"footer-head\">\n                <div class=\"footer-logo\">\n                  <h2><span>e</span>다른사이트</h2>\n                </div>\n\n                <p>우리 기술에 대한 소개 및 설명 참조 사이트</p>\n                <div class=\"footer-icons\">\n                  <ul>\n                    <li>\n                      <a href=\"#\"><i class=\"bi bi-facebook\"></i></a>\n                    </li>\n                    <li>\n                      <a href=\"#\"><i class=\"bi bi-twitter\"></i></a>\n                    </li>\n                    <li>\n                      <a href=\"#\"><i class=\"bi bi-instagram\"></i></a>\n                    </li>\n                    <li>\n                      <a href=\"#\"><i class=\"bi bi-linkedin\"></i></a>\n                    </li>\n                  </ul>\n                </div>\n              </div>\n            </div>\n          </div>\n          <!-- end single footer -->\n          <div class=\"col-md-4\">\n            <div class=\"footer-content\">\n              <div class=\"footer-head\">\n                <h4>긴급연락</h4>\n                <p>\n                  우리는 24시간 항상 귀사의 문의를 기다리고 있습니다.\n                </p>\n                <div class=\"footer-contacts\">\n                  <p><span>Tel:</span> +82-10-6807-1350</p>\n                  <p><span>Email:</span> dibae100@gmail.com</p>\n                  <p><span>Working Hours:</span> 24시간</p>\n                </div>\n              </div>\n            </div>\n          </div>\n          <!-- end single footer -->\n          <div class=\"col-md-4\">\n            <div class=\"footer-content\">\n              <div id=\"youtube\" class=\"footer-head\">\n                <h4>유튜브</h4>\n                \n              </div>\n            </div>\n          </div>\n        </div>\n      </div>\n    </div>\n    <div class=\"footer-area-bottom\">\n      <div class=\"container\">\n        <div class=\"row\">\n          <div class=\"col-md-12 col-sm-12 col-xs-12\">\n            <div class=\"copyright text-center\">\n              <p>\n                &copy; Copyright 2017, 2023 <strong><a href=\"http://www.fth-korea.com/\">FTH Korea</a></strong>. All Rights Reserved\n              </p>\n            </div>\n          </div>\n        </div>\n      </div>\n    </div>",
-        "output": "str",
-        "x": 600,
-        "y": 460,
-        "wires": [
-            [
-                "0590c154edcb67ab"
-            ]
-        ]
-    },
-    {
-        "id": "0590c154edcb67ab",
-        "type": "uib-element",
-        "z": "3b91390c64b4ab92",
-        "g": "0339124586ae5641",
-        "name": "",
-        "topic": "",
-        "elementtype": "html",
-        "parent": "#foot",
-        "parentSource": "",
-        "parentSourceType": "str",
-        "elementid": "",
-        "elementId": "",
-        "elementIdSourceType": "str",
-        "heading": "",
-        "headingSourceType": "str",
-        "headingLevel": "h2",
-        "position": "last",
-        "positionSourceType": "str",
-        "confData": {},
-        "x": 810,
-        "y": 460,
-        "wires": [
-            [
-                "61cec57fa6f19722"
-            ]
-        ]
-    },
-    {
-        "id": "7168ab5b5301f90d",
-        "type": "sqlstring-format",
-        "z": "3b91390c64b4ab92",
-        "g": "0339124586ae5641",
-        "name": "BLOG DB view",
-        "query": "SELECT * FROM blog\nORDER BY id DESC\nLIMIT 3;",
-        "vars": "",
-        "outField": "topic",
-        "x": 500,
-        "y": 880,
-        "wires": [
-            [
-                "4dfcb093d92946c7"
-            ]
-        ]
-    },
-    {
-        "id": "4dfcb093d92946c7",
-        "type": "sqlite",
-        "z": "3b91390c64b4ab92",
-        "g": "0339124586ae5641",
-        "mydb": "482fbf50457bbd81",
-        "sqlquery": "msg.topic",
-        "sql": "",
-        "name": "",
-        "x": 690,
-        "y": 880,
-        "wires": [
-            [
-                "880dc21725676eff",
-                "c054c365968aa9f4"
-            ]
-        ]
-    },
-    {
-        "id": "c054c365968aa9f4",
-        "type": "debug",
-        "z": "3b91390c64b4ab92",
-        "g": "0339124586ae5641",
-        "name": "debug 8",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 900,
-        "y": 880,
-        "wires": []
-    },
-    {
-        "id": "56164ca7de8bdb03",
-        "type": "function",
-        "z": "3b91390c64b4ab92",
-        "g": "b0590fb7a764c023",
-        "name": "send email message",
-        "func": "var p = msg.payload;\nvar reply = {};\nreply.topic = p.name + \" 님의 문의 사항이 접수 되었습니다.\";\nreply.to = p.email;\nreply.payload = \"안녕 하십니까? FTH-KOREA의 대표 이사 배동일 입니다. \\n 문의 하여 주신 내용이 접수 되었습니다. \\n 내용 확인 하는 즉시 관련 답변 드리도록 하겠습니다. \\n\\n FTH-KOREA 배동일 배상\";\nmsg = reply;\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1860,
-        "y": 200,
-        "wires": [
-            [
-                "d8f282763f83dfc2",
-                "f550825521218507"
-            ]
-        ]
-    },
-    {
-        "id": "f550825521218507",
-        "type": "debug",
-        "z": "3b91390c64b4ab92",
-        "g": "b0590fb7a764c023",
-        "name": "debug 9",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 2060,
-        "y": 260,
-        "wires": []
-    },
-    {
-        "id": "b3e3e112c7b0fbd7",
-        "type": "ui_template",
+        "id": "81c5ee8f4f4218e6",
+        "type": "fs-file-lister",
         "z": "d66642cf4bf64b92",
-        "group": "4cd464ef32526d2c",
-        "name": "",
-        "order": 0,
-        "width": "0",
-        "height": "0",
-        "format": "<!-- Include Quill stylesheet -->\n<link href=\"https://cdn.quilljs.com/1.0.0/quill.snow.css\" rel=\"stylesheet\" />\n\n<!-- Create the toolbar container -->\n<div id=\"toolbar\">\n    <!--button class=\"ql-bold\">Bold</button>\n    <button class=\"ql-italic\">Italic</button-->\n</div>\n\n<!-- Create the editor container -->\n<div id=\"editor\">\n    <p>Hello World!</p>\n</div>\n\n<!-- Include the Quill library -->\n<script src=\"https://cdn.quilljs.com/1.0.0/quill.js\"></script>\n\n<!-- Initialize Quill editor -->\n<script>\n    var editor = new Quill('#editor', {\n    modules: { toolbar: true},\n    theme: 'snow',\n  });\n</script>",
-        "storeOutMessages": true,
-        "fwdInMessages": true,
-        "resendOnRefresh": true,
-        "templateScope": "local",
-        "className": "",
-        "x": 360,
-        "y": 140,
+        "name": "Files",
+        "start": "/home/bae-dev02/Pnodered/module/homepage/static/images",
+        "pattern": "*.*",
+        "folders": "*",
+        "hidden": true,
+        "lstype": "files",
+        "path": true,
+        "single": true,
+        "depth": 0,
+        "stat": true,
+        "showWarnings": false,
+        "x": 750,
+        "y": 600,
         "wires": [
-            []
+            [
+                "44dbc119665b184a",
+                "4583b21003a062c2",
+                "a2b98251b82177d3"
+            ]
         ]
+    },
+    {
+        "id": "8268c64aa7a51baf",
+        "type": "fs-file-lister",
+        "z": "d66642cf4bf64b92",
+        "name": "Folders",
+        "start": "/home/bae-dev02/Pnodered/module/homepage/static/images",
+        "pattern": "*.*",
+        "folders": "*",
+        "hidden": false,
+        "lstype": "directories",
+        "path": true,
+        "single": true,
+        "depth": 0,
+        "stat": true,
+        "showWarnings": false,
+        "x": 760,
+        "y": 700,
+        "wires": [
+            [
+                "2d6df94c02fb7956"
+            ]
+        ]
+    },
+    {
+        "id": "a2b98251b82177d3",
+        "type": "debug",
+        "z": "d66642cf4bf64b92",
+        "g": "bd3627f098f79991",
+        "name": "debug 58",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 880,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "4cd464ef32526d2c",
+        "type": "ui_group",
+        "name": "블로그 생성",
+        "tab": "e45c37dd150cf484",
+        "order": 1,
+        "disp": true,
+        "width": "24",
+        "collapse": true,
+        "className": ""
+    },
+    {
+        "id": "150516e9aeff2484",
+        "type": "ui_group",
+        "name": "UPLOAD",
+        "tab": "e45c37dd150cf484",
+        "order": 2,
+        "disp": true,
+        "width": "24",
+        "collapse": true,
+        "className": ""
+    },
+    {
+        "id": "160e81fb.f1c86e",
+        "type": "ui_group",
+        "name": "FileBrowser",
+        "tab": "e45c37dd150cf484",
+        "order": 2,
+        "disp": true,
+        "width": "24",
+        "collapse": true,
+        "className": ""
+    },
+    {
+        "id": "e45c37dd150cf484",
+        "type": "ui_tab",
+        "name": "Admin",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
     }
 ]
